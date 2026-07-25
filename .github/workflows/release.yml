@@ -1,0 +1,175 @@
+name: Build and publish Foundry module
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release version without the leading v (for example, 0.1.0)"
+        required: true
+        default: "0.1.0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: etesia-release-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  MODULE_ID: etesia-arniea-compendium
+
+jobs:
+  build:
+    name: Build module and release assets
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Resolve and validate version
+        id: release
+        shell: bash
+        env:
+          MANUAL_VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+
+          if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
+            TAG="${GITHUB_REF_NAME}"
+            VERSION="${TAG#v}"
+          else
+            VERSION="${MANUAL_VERSION#v}"
+            TAG="v${VERSION}"
+          fi
+
+          if [[ ! "${VERSION}" =~ ^[0-9]+\.[0-9]+\.[0-9]+([.-][0-9A-Za-z.-]+)?$ ]]; then
+            echo "Version '${VERSION}' is not a supported semantic version." >&2
+            exit 1
+          fi
+
+          echo "tag=${TAG}" >> "${GITHUB_OUTPUT}"
+          echo "version=${VERSION}" >> "${GITHUB_OUTPUT}"
+          echo "zip_name=${MODULE_ID}-v${VERSION}.zip" >> "${GITHUB_OUTPUT}"
+
+      - name: Install build dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -f package-lock.json ]]; then
+            npm ci --no-audit --no-fund
+          else
+            npm install --no-audit --no-fund
+          fi
+
+      - name: Validate source compendiums
+        run: npm run validate
+
+      - name: Compile Foundry module
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm run build -- \
+            --version="${{ steps.release.outputs.version }}" \
+            --tag="${{ steps.release.outputs.tag }}"
+
+      - name: Create release assets
+        id: assets
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          MODULE_DIR="dist/${MODULE_ID}"
+          ZIP_PATH="dist/${{ steps.release.outputs.zip_name }}"
+          MANIFEST_PATH="dist/module.json"
+
+          test -f "${MODULE_DIR}/module.json"
+
+          # Foundry expects module.json and the module content at the root of
+          # the downloaded archive, not inside an additional wrapper folder.
+          (
+            cd "${MODULE_DIR}"
+            zip -q -r "../${{ steps.release.outputs.zip_name }}" .
+          )
+
+          cp "${MODULE_DIR}/module.json" "${MANIFEST_PATH}"
+
+          unzip -Z1 "${ZIP_PATH}" | grep -Fxq "module.json"
+
+          node --input-type=module <<'NODE'
+          import fs from "node:fs";
+
+          const version = process.env.RELEASE_VERSION;
+          const tag = process.env.RELEASE_TAG;
+          const zipName = process.env.RELEASE_ZIP;
+          const manifest = JSON.parse(fs.readFileSync("dist/module.json", "utf8"));
+
+          const expectedManifest = "https://github.com/thystra/etesia-arniea-compendium/releases/latest/download/module.json";
+          const expectedDownload = `https://github.com/thystra/etesia-arniea-compendium/releases/download/${tag}/${zipName}`;
+
+          if (manifest.id !== process.env.MODULE_ID) {
+            throw new Error(`Unexpected module id: ${manifest.id}`);
+          }
+          if (manifest.version !== version) {
+            throw new Error(`Manifest version ${manifest.version} does not match ${version}`);
+          }
+          if (manifest.manifest !== expectedManifest) {
+            throw new Error(`Unexpected manifest URL: ${manifest.manifest}`);
+          }
+          if (manifest.download !== expectedDownload) {
+            throw new Error(`Unexpected download URL: ${manifest.download}`);
+          }
+          NODE
+
+          sha256sum "${MANIFEST_PATH}" "${ZIP_PATH}" > dist/SHA256SUMS.txt
+
+          echo "zip_path=${ZIP_PATH}" >> "${GITHUB_OUTPUT}"
+          echo "manifest_path=${MANIFEST_PATH}" >> "${GITHUB_OUTPUT}"
+        env:
+          RELEASE_VERSION: ${{ steps.release.outputs.version }}
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+          RELEASE_ZIP: ${{ steps.release.outputs.zip_name }}
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.MODULE_ID }}-${{ steps.release.outputs.version }}
+          path: |
+            dist/module.json
+            dist/${{ steps.release.outputs.zip_name }}
+            dist/SHA256SUMS.txt
+          if-no-files-found: error
+
+      - name: Create or update GitHub release
+        if: github.event_name == 'push'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          TAG="${{ steps.release.outputs.tag }}"
+          VERSION="${{ steps.release.outputs.version }}"
+          ZIP="dist/${{ steps.release.outputs.zip_name }}"
+          MANIFEST="dist/module.json"
+          CHECKSUMS="dist/SHA256SUMS.txt"
+
+          if gh release view "${TAG}" >/dev/null 2>&1; then
+            gh release upload "${TAG}" \
+              "${ZIP}" "${MANIFEST}" "${CHECKSUMS}" \
+              --clobber
+          else
+            gh release create "${TAG}" \
+              "${ZIP}" "${MANIFEST}" "${CHECKSUMS}" \
+              --verify-tag \
+              --generate-notes \
+              --title "Etesia–Arniea Compendium v${VERSION}"
+          fi
