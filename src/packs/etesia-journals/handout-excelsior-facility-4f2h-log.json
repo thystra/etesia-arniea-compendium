@@ -1,0 +1,71 @@
+{
+  "_id": "74e0aa8511139642",
+  "name": "Handout — Excelsior Facility 4F2H Log",
+  "pages": [
+    {
+      "_id": "4cf9225365d1ad80",
+      "name": "Translated Log",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"etesia-source-transcription\"><pre>Translated Journal entries\n\nExcelsior Industries Facility 4F2H Log Entries\n\n- Facility set up has gone well. It appears that we have remained\nundetected at this time. All of the equipment has been received.\nProduction will start soon.\n\n- The initial load of materials for assembly of ‘droids’ has arrived.\nProduction has begun.\n\n- Several squads of battle golems have been assembled and are staged.\nProduction continues on schedule, despite several malfunctions of the\nassembly equipment. Antony and the technicians have been able to keep\nthe assembly equipment functioning despite limited parts and supply\nruns.\n\n- The mind-loader had malfunctioned and we are unable to activate\nfurther war golems. Star Hill and Gravestone have been notified and a\nreplacement requested.\n\n- Communication and supplies have been spotty. The campaign in the east\nis not going as well as hoped. Facility KD9E remains in communication\nwith us. We are prepared to execute the western campaign plan. Facility\nJ38D has come online as well.\n\n- The western campaign has progressed on schedule. Initial successes are\nbeyond expectations. The illusion magic was the perfect disguise – the\nDwarves didn’t suspect a thing! Kergrin is nearly in our control. The\nouter city has largely been taken and cleared of the vermin. Our forces\nare assaulting the inner city gates.\n\n- Disturbing news from the front, the vermin found reinforcements\nsomewhere and have begun to drive back our war golems. They seem to have\nfound a new weapon that we were not aware of. They are cutting through\nour lines much faster than before. The mind-loader has still not\narrived, and we are unable to supply reinforcements.\n\n- Dwarvish forces have reclaimed the outer city. Our war golems have\nbeen driven back and their ranks are heavily thinned with the lack of\nresupply.\n\n- Our forces are nearly exhausted and supply routes threatened. I have\ndecided to collapse the access tunnels to prevent capture of the\nfacility. I have sent a distress message to Gravestone and Star Hill. I\npray to the Star that reinforcements will come quickly!\n\n- It has been three weeks since I collapsed the tunnels and placed our\nremaining war golems into facility defense mode. Nothing has been heard\nfrom headquarters or any other facility. Supplies are dwindling and the\ncrew is beginning to show signs of stress. Ryland has taken ill and we\nhave no medicine to treat him. I fear he will pass soon.\n\n- Food has run out, water is limited. Wat and Sully have died. I fear\nthat this place will become our tomb.\n\n- Daren attacked me, but I defeated him. All hope of rescue is lost.\nThis will be my last entry. Long may the light of the Star shine.\n\nSloan Taegan, cleric of the Shining Star</pre></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!74e0aa8511139642.4cf9225365d1ad80"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "handout",
+        "SSE",
+        "Kergrin"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!74e0aa8511139642"
+}

@@ -1,0 +1,119 @@
+{
+  "_id": "12e9d2966395a4d3",
+  "name": "Shatter Grenade Launcher",
+  "type": "equipment",
+  "img": "icons/weapons/crossbows/crossbow-loaded-black.webp",
+  "system": {
+    "description": {
+      "value": "<p>A construct-mounted or crew-served launcher designed to propel Shatter Grenades to a maximum effective range of 150 feet. Loading a grenade is part of the attack. The launcher does not create grenades and consumes one Shatter Grenade per use. This initial implementation records the campaign requirement and is intended for playtesting.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Etesia playtest design — based on campaign requirement",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": 20,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Requires one Shatter Grenade."
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 150,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": []
+    },
+    "consume": {
+      "type": "ammo",
+      "target": "",
+      "amount": 1
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d8",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "armor": {
+      "value": 0,
+      "dex": null
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": false,
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!12e9d2966395a4d3"
+}

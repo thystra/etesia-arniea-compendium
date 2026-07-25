@@ -1,0 +1,111 @@
+{
+  "_id": "c7309af2cabc5aff",
+  "name": "Shatter Grenade",
+  "type": "consumable",
+  "img": "icons/weapons/thrown/bomb-fuse-black-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>A small metal sphere that feels like the power of a thunderstorm trapped inside. It functions as a throwable, single-use magical effect. Creatures in a 10-foot-radius sphere make a DC 15 Constitution saving throw, taking 18 (4d8) thunder damage on a failure or half on a success. Constructs have disadvantage on the saving throw. This initial mechanical implementation is provisional for playtesting.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Etesia playtest design — based on campaign requirement",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "sphere"
+    },
+    "range": {
+      "value": 20,
+      "long": 60,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "charges",
+      "recovery": []
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d8",
+          "thunder"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": 15,
+      "scaling": "flat"
+    },
+    "consumableType": "trinket",
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!c7309af2cabc5aff"
+}

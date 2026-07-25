@@ -1,0 +1,116 @@
+{
+  "_id": "925581572c429ec3",
+  "name": "Manacles of Misfortune",
+  "type": "equipment",
+  "img": "icons/sundries/survival/cuffs-shackles-steel.webp",
+  "system": {
+    "description": {
+      "value": "<p>Manacles of Misfortune</p><p>A magical set of adamantine manacles designed to restrain magic users when taken prisoner. When applied, they close around the wrists of the unfortunate and the metal seals up and leaves no key hole or seam.</p><ul><li>All rolls made by the wearer are made at disadvantage.</li></ul><p>everything just seems harder and to take longer.</p><ul><li>A sense of despair and foreboding settles over the wearer, and</li></ul><p>fog forms outside this perimeter, centered on the wearer and moves with them.</p><ul><li>The wearer has limited visibility to 30 feet - an illusion of heavy</li></ul><ul><li>Their speed is halved</li></ul><p>performing somatic components of spell casting.</p><ul><li>The manacles bind the wearer’s hands, preventing the wearer from</li></ul><p>divinity.</p><ul><li>The manacles may be applied or removed by a forge cleric channeling</li></ul><p>leaving the wearer restrained. The manacles remain applied until cut off/destroyed. A smith with appropriate tools/shop will take 1d6 hours to remove the manacles without hurting the wearer.</p><ul><li>Casting dispel magic on the manacles will remove the magical effects,</li></ul><ul><li>A disintegrate spell will destroy the manacles.</li></ul><p>AC: 25</p><p>HP: 50</p><p>Dispel Magic DC: 15</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Item — Manacles of Misfortune",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": 5,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "veryRare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Applied or removed by a forge cleric channeling divinity."
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": []
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "AC 25; HP 50; Dispel Magic DC 15",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "dex": null
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": false,
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!925581572c429ec3"
+}

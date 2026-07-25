@@ -1,0 +1,70 @@
+{
+  "_id": "d90dc20f159c5c59",
+  "name": "Order — Aslan",
+  "pages": [
+    {
+      "_id": "6eef9038a61d0835",
+      "name": "Order Notes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"etesia-source-transcription\"><pre>-   Brother Lennox Grey of the Order of Aslan will find Jimmel and\n    deliver a letter to him from Abbot Rupert Bailey, head of the Order\n    of Aslan Monastery outside Yemthas, but in the Eleven territory\n    where he grew up until he was put on a ship.\n\n    -   Letter will reveal that his mother has died, and as the last of\n        his line, his birthright may be found in the old Lightfoot\n        estate near the shores of Gravestone Lake.</pre></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!d90dc20f159c5c59.6eef9038a61d0835"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "GM",
+        "order"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!d90dc20f159c5c59"
+}

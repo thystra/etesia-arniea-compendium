@@ -1,0 +1,70 @@
+{
+  "_id": "fd3acb5d60b9987b",
+  "name": "Handout — Letter to Jimmel Lightfoot",
+  "pages": [
+    {
+      "_id": "bc47b672b634391f",
+      "name": "Letter",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"etesia-source-transcription\"><pre>18 January 843 AC\n\nDear Jimmel,\n\nI hope this letter finds you well, although it bears sad news. It is my\nunhappy duty to inform you that your mother passed away last year. You\nare the last remaining of your line. Before she passed in her illness,\nshe asked that I relay to you that you might obtain your birthright at\nyour family’s old estate on the southeastern shores of Gravestone Lake.\nShe did caution that the estate was old and no one had lived there for a\nfew hundred years.\n\nI am sorry for your loss and hope that you are doing well in your\njourneys.\n\nMay Aslan guide your path,\n\nAbbot Rupert Bailey\n\nYemthas Monastery\n\nSkyefyre\n\nRequires attunement\n\n+1 Bow\n\n+5 movement speed\n\n3x charges/day\n\n- fire a two arrows at the same target (straight roll)\n\nOR\n\n- fire two arrows at two different targets with a -3 modifier to hit\neach target in the same attack.</pre></div><p><em>GM note: the dedicated Skyefyre item document controls the bow’s mechanics where this letter’s appended shorthand differs.</em></p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!fd3acb5d60b9987b.bc47b672b634391f"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "handout",
+        "Lightfoot"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!fd3acb5d60b9987b"
+}

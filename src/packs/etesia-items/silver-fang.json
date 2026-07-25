@@ -1,0 +1,115 @@
+{
+  "_id": "584a4003969155d8",
+  "name": "Silver Fang",
+  "type": "weapon",
+  "img": "modules/etesia-arniea-compendium/assets/items/silver-fang.png",
+  "system": {
+    "description": {
+      "value": "<p>Item: Silver Fang</p><p>+1 Longsword</p><p>The Silver Fang is the trademark weapon of the Order of the Argent Wolf. Fully initiated members are presented with it upon completion of their initiation, normally around level 5 (initiation required to take further level in EK).</p><p>The sword bears a silver pommel with an ornately carved wolf’s head on the pommel piece. The crossguard bears intricately carved designs that remind the viewer of wolf’s hair and the end of the crossguard into stylized wolf’s paws. The blade bears intricate knotwork style engraving and runes along it’s blade. The Silver Fang also bears a silvered edge.</p><p>Properties:</p><p>Requires Attunement</p><ul><li>Silvered blade</li></ul><ul><li>+1 Longsword</li></ul><p>Grants the bearer the Pack Tactics</p><p>one of your allies is within 5 feet of the creature and your ally is not incapacitated.</p><ul><li>You have advantage on an attack roll against a creature if at least</li></ul><p>this feature to be active.</p><ul><li>You must be attuned to the Silver Fang and have it on your person for</li></ul><p>[]</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Item — Silver Fang Longsword",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": 3,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 2,
+    "equipped": true,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": []
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "mwak",
+    "attackBonus": "1",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod + 1",
+          "slashing"
+        ]
+      ],
+      "versatile": "1d10 + @mod + 1"
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "weaponType": "martialM",
+    "baseItem": "longsword",
+    "properties": [
+      "mgc",
+      "sil",
+      "ver"
+    ],
+    "proficient": true
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!584a4003969155d8"
+}

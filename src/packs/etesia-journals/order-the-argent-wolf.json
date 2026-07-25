@@ -1,0 +1,70 @@
+{
+  "_id": "8972bd849ace1be6",
+  "name": "Order — The Argent Wolf",
+  "pages": [
+    {
+      "_id": "d87e41d1be79af71",
+      "name": "Order Notes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"etesia-source-transcription\"><pre>-   Order of the Argent Wolf\n\n    -   Based out of Castlemarch\n\n    -   Rivan Greymane runs the AW Den in Kergrin, out of his store\n        called Greymane’s Curiosities\n\n        -   Rivan will relay info that Lady Amara was the one who killed\n            Aerithon’s master, Gideon Rowan\n        -   Rivan is unsure as to who or how he was betrayed\n        -   To complete his training / initiation Aerithon will need to\n            visit the order’s HQ in Castlemarch, upon which he would\n            earn his silver fang / weapon.\n        -   Rivan will write two letters of introduction – one to get\n            the party into Castlemarch and another to get Aerithon to\n            the head of the order, Old Grey One, Arnmar Carhice.\n\nYou go back to Greymane’s curiosities to inquire about the spell book.\nRivan has a line on a crafter that can make one. It will be 50 GP in\nexpenses and 130 GP for the item, for 180 GP total. It would also take\none week to make.\n\nYou recognize the symbols of the order of the Argent Wolf in his shop\nand on his person, and reveal that you are a member. You and he discuss\nyour situation and the fate of your master Gideon Rowan. Rivan shares\nwith you that Lady Amara was the one that killed him and destroyed his\nhouse. Rivan is not sure who or how he was betrayed.\n\nYou and Rivan discuss your training. He tells you that you will need to\ngo to Castlemarch and see the head of the order, the Old Grey One,\nArnmar Carhice, who will assign your trial to complete your training.\nTypically, the trial is in two parts, one performed alone to represent\nthe lone wolf, and one with a party, to symbolize working as a pack. At\nthe completion of training, you would be initiated as a full member of\nthe order and able to progress in levels. You would also receive the\ntrademark weapon of the order, a longsword known as a ‘Silver Fang.’\n\nRivan gives you a leather packet of some documents he asks you to\ntransport to Arnmar. He also gives you two letters of introduction, one\nto the Castlemarch guards and one to Arnmar Carhice.\n\n---\n\nThe party went to meet Arnmar Carhice to</pre></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!8972bd849ace1be6.d87e41d1be79af71"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "GM",
+        "order"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!8972bd849ace1be6"
+}

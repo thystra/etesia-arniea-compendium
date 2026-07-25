@@ -1,0 +1,70 @@
+{
+  "_id": "6716495208384b47",
+  "name": "Faction — Castlemarch",
+  "pages": [
+    {
+      "_id": "acdc24e69e34d38c",
+      "name": "Castlemarch",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"etesia-source-transcription\"><pre>Castlemarch faction notes\n\nCastlemarch is based on Constantinople and the Byzantine Empire.\n\nThe rulers of Castlemarch are Lord Malon [human] and Lady Amarille\n[human] (Possible dragon? In polymorph?)\n\nThe Lord and Lady are generally hidden away in their various palaces in\nthe city, rarely interacting with the public at large. Governance is\ndone by lesser officers and nobles managing the various departments of\nthe city’s bureaucracy.\n\nSitting on the strait of spears, the city has grown wealthy with trade\nbetween the SSE, Wolfsgard, the Elves, and the Arnieans to the south.\nThe Arnieans have traded rare perfumes, spices, and other materials in\nexchange for the finely worked items from the Dwarves and Elves. The\nArnieans have also had a trade in slaves, although this has diminished\nin recent decades with reforms in the slave laws put into place by Lord\nMalon. War / raiding captives are still the primary source of slaves,\nsometimes ransomed back to the Arnieans or put to work in various\npursuits (fields, labor). Highly skilled slaves have found positions of\nauthority and responsibility in Castlemarch society, often controlling\nsignificant assets and overseeing significant operations / businesses.\n\nSome of these people may be eunuchs or were sold into slavery by their\nparents to pay debts. Some may have sold themselves into slavery to\nimprove their economic position. Slaves, especially non war captive\nslaves, can buy or otherwise achieve their freedom after sometime,\ndepending on their circumstances.\n\nGeneral city laws:\n\n- Weapons greater than a dagger must be peace bonded or left with the\ntown guard upon entry.\n\nMembers of certain orders and/or with enough reputation with the city\nmay be permitted to carry unbonded weapons in the city.\n\n- War golems are not permitted inside the city\n\n- Offensive magic is not permitted in the city (except for the town\nguard and certain nobles/orders).\n\n- Unsanctioned magic use inside the city is punishable by death\n\n- Illusion magic used to deceive in trade or official matters is\npunishable by imprisonment and/or death\n\nThieves’ Guild (Castlemarch)\n\nThe TG is tied into the various nobles and administration centers. Their\nbread and butter is moving goods in and out of the docks and and\nexporting to other parts of Etesia. They have some relations with\ncontact in Arniea to source materials to/from there. They work with the\ninternal security/police, and are tolerated by IP as long as they\ncooperate.</pre></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!6716495208384b47.acdc24e69e34d38c"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "GM",
+        "faction"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!6716495208384b47"
+}

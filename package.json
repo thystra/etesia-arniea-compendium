@@ -1,0 +1,14 @@
+{
+  "name": "etesia-arniea-compendium",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-source.mjs",
+    "build": "node scripts/build-release.mjs",
+    "release": "node scripts/build-release.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.4"
+  }
+}

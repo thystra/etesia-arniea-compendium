@@ -1,0 +1,153 @@
+{
+  "_id": "c61dae3de3109ab9",
+  "name": "Handout — Star Journal, Redacted",
+  "pages": [
+    {
+      "_id": "e3401ae23f9e0add",
+      "name": "Redacted Page 1",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "Player-visible redacted Star Journal, page 1."
+      },
+      "text": {
+        "format": 1,
+        "content": "",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/etesia-arniea-compendium/assets/handouts/lightfoot-star-journal-redacted-1.png",
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!c61dae3de3109ab9.e3401ae23f9e0add"
+    },
+    {
+      "_id": "a38748fdcfcbc195",
+      "name": "Redacted Page 2",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "Player-visible redacted Star Journal, page 2."
+      },
+      "text": {
+        "format": 1,
+        "content": "",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/etesia-arniea-compendium/assets/handouts/lightfoot-star-journal-redacted-2.png",
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!c61dae3de3109ab9.a38748fdcfcbc195"
+    },
+    {
+      "_id": "6968eb1e035ea0ce",
+      "name": "Redacted Page 3",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "Player-visible redacted Star Journal, page 3."
+      },
+      "text": {
+        "format": 1,
+        "content": "",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/etesia-arniea-compendium/assets/handouts/lightfoot-star-journal-redacted-3.png",
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!c61dae3de3109ab9.6968eb1e035ea0ce"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "handout",
+        "SSE",
+        "Gravestone"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!c61dae3de3109ab9"
+}

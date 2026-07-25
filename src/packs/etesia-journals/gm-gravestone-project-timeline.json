@@ -1,0 +1,71 @@
+{
+  "_id": "d110cc60f11d7f84",
+  "name": "GM — Gravestone Project Timeline",
+  "pages": [
+    {
+      "_id": "f3b8949f503a31cd",
+      "name": "Timeline",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h2>Gravestone Project — Reconciled GM Timeline</h2>\n<table><thead><tr><th>Date</th><th>Event</th></tr></thead><tbody>\n<tr><td>350 BC</td><td>Filverl Lightfoot meets Brother Salla, a traveler from the land of the Star.</td></tr>\n<tr><td>345 BC</td><td>Filverl records population culling at Pale or Gravestone Lake.</td></tr>\n<tr><td>343–338 BC</td><td>Brother Salla proposes Arniean transport of the Glades’ “excess” population; the arrangement is approved.</td></tr>\n<tr><td>325 BC</td><td>Brother Salla returns with Sister Rasha; Lightfoot wealth begins funding the metal-men project. The separate Star Journal attributes the laboratory effort to Sister Salla.</td></tr>\n<tr><td>315–275 BC</td><td>The Gravestone laboratory is built with assistance from Dwarven engineers.</td></tr>\n<tr><td>270–225 BC</td><td>Sisters Mira and Amala and Brother Ruben expand Shining Star influence over the project and the Lightfoot family.</td></tr>\n<tr><td>215 BC</td><td>Subjects from the Glades are used in attempts to create soul stones.</td></tr>\n<tr><td>210 BC</td><td>Successful stones are made from lineages influenced by Celestials.</td></tr>\n<tr><td>205 BC</td><td>Several prototypes are animated and units stationed at the estate and laboratory.</td></tr>\n<tr><td>Later pre-Cataclysm</td><td>Excelsior production facilities assemble battle and war golems. Illusion-concealed forces attack Kergrin and are ultimately driven back.</td></tr>\n<tr><td>843 AC era</td><td>The modern SSP has rediscovered enough technology to resume war-golem production after acquiring a soul stone from the party.</td></tr>\n</tbody></table>\n<p><strong>Open questions:</strong> the relationship between Brother and Sister Salla; the relationship, if any, between Sister Amara and Lady Amara Grethry; the complete Excelsior corporate or governmental structure; and the exact date of the Gravestone facility letter.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!d110cc60f11d7f84.f3b8949f503a31cd"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "GM",
+        "timeline",
+        "SSE"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!d110cc60f11d7f84"
+}

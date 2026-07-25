@@ -1,0 +1,86 @@
+{
+  "id": "etesia-arniea-compendium",
+  "title": "Etesia–Arniea Campaign Compendium",
+  "description": "Personal-use Etesia and Arniea campaign actors, items, journals, handouts, and world-transfer packs for Foundry VTT V14 and D&D5e 2024 rules.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Alan",
+      "url": "https://github.com/thystra/etesia-arniea-compendium"
+    }
+  ],
+  "url": "https://github.com/thystra/etesia-arniea-compendium",
+  "manifest": "https://github.com/thystra/etesia-arniea-compendium/releases/latest/download/module.json",
+  "download": "https://github.com/thystra/etesia-arniea-compendium/releases/download/v0.1.0/etesia-arniea-compendium-v0.1.0.zip",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.3.0",
+          "verified": "5.3.3"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/etesia.mjs"
+  ],
+  "styles": [
+    "styles/etesia.css"
+  ],
+  "packs": [
+    {
+      "name": "etesia-actors",
+      "label": "Etesia Actors",
+      "path": "packs/etesia-actors",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "etesia-items",
+      "label": "Etesia Items",
+      "path": "packs/etesia-items",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "etesia-journals",
+      "label": "Etesia Journals and Handouts",
+      "path": "packs/etesia-journals",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "transfer-actors",
+      "label": "World Transfer — Actors",
+      "path": "packs/transfer-actors",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "transfer-items",
+      "label": "World Transfer — Items",
+      "path": "packs/transfer-items",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "transfer-journals",
+      "label": "World Transfer — Journals",
+      "path": "packs/transfer-journals",
+      "type": "JournalEntry"
+    }
+  ],
+  "flags": {
+    "etesia-arniea-compendium": {
+      "rulesVersion": "2024",
+      "initialRelease": true
+    }
+  }
+}

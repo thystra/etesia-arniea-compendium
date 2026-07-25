@@ -1,0 +1,71 @@
+{
+  "_id": "af3e48636ee5f523",
+  "name": "GM — Star Journal, Complete Translation",
+  "pages": [
+    {
+      "_id": "053ca3543e939138",
+      "name": "Complete Translation",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"etesia-source-transcription\"><pre>Star Journal (written in old empire)\n\n-325 BC (Sister Salla)\n\nFilverl has granted me permission to begin efforts to construct the\nmetal men. I’ve sent for engineers to assist with the creation of the\nlaboratory.\n\n-315 BC\n\nConstruction continues apace. We were able to recruit some Dwarven\nengineers which greatly enhanced our efforts in getting the facility up\nand running. We’ve taken to calling it Gravestone, due to the proximity\nof Gravestone Lake. It also makes for a nice distraction if we are asked\nwhere we are going, merely to Gravestone.\n\nFilverl’s son, Camus quite fancies his dalliances with human women. I’ve\nsent word back home to send out comely assistants and replacements to\ncater to his fancies.\n\n- 270 BC (Sister Mira)\n\nI’ve arrived and taken over from Sister Salla. It seems that the reports\nabout Camus are accurate. He has wasted no time in expressing interest\nin me.\n\nProgress on the project has been slow but steady.\n\n-265 BC\n\nFilverl has turned over control of the project to Camus, which has\nworked to our favor. His carnal appetite continues unabated. I have\nsecured sufficient resources from him to bring in some more staff. These\nwizards aren’t cheap. I am confident in my ability to lead Camus to\nwhere we need him, as his interest in the project extends about as far\nas my dress.\n\n- 250 BC (Sister Amala)\n\nSister Amala arrived to take over lead efforts. I see she was well\nprepared for her assignment. She wasted no time attracting Camus’\nattentions.\n\n-225 BC (Sister Amala, Brother Ruben)\n\nBrother Ruben arrived today. Lady Sarya has been taking more interest in\nleading the project, as Camus has had to shift his attentions to other\nmatters of the Elven Houses. Lady Sarya Lightfoot, Camus’ sister, is\nvery interested in reducing the need for their Glades, and so is willing\nto support our project. She is also partial to a certain type, which I\ntold Mother and requested an assistant that fits her fancy.\n\n-215 BC\n\nLady Sarya provided several subjects at our request. We are getting\ncloser to creating a soul stone, which should allow us to animate the\nmetal forms with intelligence. Unfortunately, the first rituals and\nsacrifices were unsuccessful. Fortunately, there is a ready supply of\nsubject to experiment on from the Glades. The elves do not seem to mind\nthe reduction in population, and perhaps see it as a benefit as it saves\nthem from having to do the deed.\n\n-210 BC\n\nWe have successfully crafted a few soul stones with the help of Lady\nAshryn, Sarya’s sister. It appears that the trick is having the right\nquality soul. We discovered several lineages that were influenced by\nCelestials in their past are particularly desirable for making soul\nstones, as they have the necessary power and resiliency to survive the\nprocess.\n\n- 205 BC\n\nWith Lady Ashryn’s help, we were able to animate several prototypes.\nI’ve sent reports back to Mother and received confirmation on Star Hill\non our process. I’ve stationed several units here at the estate to\nprotect this lab as we move onto the next steps.</pre></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!af3e48636ee5f523.053ca3543e939138"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "GM",
+        "SSE",
+        "Gravestone"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!af3e48636ee5f523"
+}

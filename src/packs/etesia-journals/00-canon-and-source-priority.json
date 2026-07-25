@@ -1,0 +1,70 @@
+{
+  "_id": "0339830c8b51137f",
+  "name": "00 — Canon and Source Priority",
+  "pages": [
+    {
+      "_id": "f4e4d31ededd014d",
+      "name": "Canon",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h2>Module Canon and Source Priority</h2>\n<p><strong>Primary design instructions:</strong> <em>compendium layout for chatgpt.odt</em>.</p>\n<p><strong>Geographic authority:</strong> the in-game GM world map controls the spelling and relative placement of mapped locations. Dynamic tokens, hostile-village markers, and colored boundaries describe campaign state and may change.</p>\n<h3>Canonical forms</h3>\n<ul>\n<li>Wolfsgarde; Arnmar Carhice; Skyefyre; Harald; Silvercove; Morlalin; Naenadell; Brookside; Heellond; Order of Aurem; Arniean.</li>\n<li>Orbryn Silverhammer is female.</li>\n<li>Session 16 arrival in Pallon is normalized to 22 April 843 AC.</li>\n<li>Ocean’s Eight and Ocean’s Three are successive party names reflecting changes in party size.</li>\n</ul>\n<h3>Distinctions</h3>\n<ul>\n<li><strong>SSE:</strong> Shining Star Empire, the pre-Cataclysm polity.</li>\n<li><strong>SSP:</strong> Shining Star Protectorate, the post-Cataclysm successor.</li>\n<li><strong>War Golems:</strong> purpose-built Shining Star military constructs.</li>\n<li><strong>Warforged:</strong> a broader ancestry or independently sentient constructed person, such as AIDAN.</li>\n<li>Sister Amara and Lady Amara Grethry are distinct people; whether they are related is unresolved.</li>\n<li>Brother Salla and Sister Salla are distinct religious figures. Brother and Sister are monastic or clerical honorifics; a family relationship is possible but unestablished.</li>\n</ul>\n<h3>Faction inspirations</h3>\n<ul>\n<li>The Shining Star Empire and Protectorate are institutionally and aesthetically patterned after the Catholic Church.</li>\n<li>Kergrin draws on Nordic society as understood by the campaign author and general dwarvish lore.</li>\n<li>Yemthas is loosely inspired by North Korea: insularity, controlled movement, rigid hierarchy, restricted information, and suspicion of outsiders.</li>\n<li>Castlemarch draws on Constantinople and the Byzantine Empire.</li>\n<li>The Order of Aurem is inspired by the Templars.</li>\n</ul>\n<p>These are broad design inspirations rather than one-to-one historical copies.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!0339830c8b51137f.f4e4d31ededd014d"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "GM",
+        "canon"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!0339830c8b51137f"
+}

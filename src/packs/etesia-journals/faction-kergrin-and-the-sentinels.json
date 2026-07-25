@@ -1,0 +1,70 @@
+{
+  "_id": "f522abacd53d13bd",
+  "name": "Faction — Kergrin and the Sentinels",
+  "pages": [
+    {
+      "_id": "f3f7da17cd50cd11",
+      "name": "Kergrin",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"etesia-source-transcription\"><pre>Smith Kofrud Flinthand\n\n- addresses them as “honorless mercenaries”\n\n- is offended that they tried to hide and continue to hide their\nidentities\n\n- is offended that they tried to smuggle in a warforged / war golem\n\n- is offended that they have SSP pendants\n\n- relays to the party the terms of their trial\n\n- Trial of honor – committing dishonor / cowardice will consider it to\nbe failed and subject to being killed\n\n- would rather have seen them killed as agents of the protectorate and\nhung over the battlements\n\n- views hiding their identity as cowardice, fit for sneak thieves,\nspies, and criminals.\n\n- the trial was not his call, but he will faithfully execute the orders\nof the Master Smith.\n\nThrokaen Stonecleaver\n\n843-450 = 407- 450 = bc 43 + 400 = bc 433\n\nYear 843 – TS 440 years old\n\nTS born 403\n\nHad son, Master Smith Gidrul Silverhammer, year 493)\n\nFather, Hamac Frostbuckle, was 200 when TS born, Father born 203\n\nGrandfather , Orduk Lightbender, was 250 when Father was born,\nGrandfather born year 47 BC\n\n- is old, approaching 450 years old\n\n- his son is Master Smith Gidrul Silverhammer (350 yr old)\n\n- runs the inn and prepares their dinner while talking\n\n- is the son and grandson of the dwarves that headed up the creations of\nthe Sentinels at the gates.\n\n- The sentinels were created as a response to an atrocity in the Great\nWar before the Cataclysm.\n\n- The Dwarves were neutral at the time in the war. The Empire had\nsmuggled in a number of legions of war golems / metal men into the\nDwarven cities utilizing illusion magic. The Empire sprung their attack,\nkilling large number of Dwarves such that the streets ran with blood.\n\n- The Dwarves fought back, and some called on their gods for help.\nMoradin, and Thard Harr (the Storm god), among others, granted some of\nthem the powers of the Forge, allowing them to gain the upper hand\nagainst the metal men / war golems.\n\n- The streets ran as rivers with blood. In some places, the staining can\nstill be found.\n\n- After the attack, the Dwarves, led by Grandfather created the\nSentinels as a ward against this happening again and force all travelers\nto pass through the gates.\n\n- As the cataclysm was 843 years ago, it is only a few Dwarven\ngenerations removed, compared to 40 generations of Humans.\n\n- The Empire was destroyed in the cataclysm, but the main part of it\nreconstituted itself as the SSSP\n\n- Throkaen was not a Smith, but a miner. He spent his youth expanding\nand finishing the Halls of Memories to entomb the bones of the slain.\n\n- Knows that every decade or so someone unearths a Warforged. Sometimes\nwhen they turn them on they start killing everyone. Sometimes they just\nwalk in circles. Sometimes nothing. Sometimes like Warforged character –\nsentient.\n\n- “Everything comes from the Earth, and goes back to the Earth.\nSometimes people bury things to hide them, but its odd what you can dig\nup.”\n\n- Will ask the party to not try to escape the inn, last time someone\ntried that, he had to clean them up with a mop and bucket. (warding\nglyphs under the windows)\n\nSentinels – Fixed statues / objects that monitor city entrances\n\n- True Seeing - Truesight to see through illusions / true form / shape\nchangers (Divination School)\n\n- Detect magic operates in their area of effect (Divination)\n\n- Through tokens/amulets, allows the guards to perceive detected things\n/ anomalies\n\n- Detects undead, aberrations, constructs, fey, Fiends, Celestials\n(Divination)</pre></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!f522abacd53d13bd.f3f7da17cd50cd11"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "GM",
+        "faction"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!f522abacd53d13bd"
+}

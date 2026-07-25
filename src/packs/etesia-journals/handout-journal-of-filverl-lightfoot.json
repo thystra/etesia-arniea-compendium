@@ -1,0 +1,71 @@
+{
+  "_id": "f54ca46bff17def4",
+  "name": "Handout — Journal of Filverl Lightfoot",
+  "pages": [
+    {
+      "_id": "633e1c1ccfec0110",
+      "name": "Journal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"etesia-source-transcription\"><pre>Lightfoot Journal\n\nCY 843\n\nJimmel Lightfoot 24 = 819 AC\n\nLumiel Lightfoot - Mother elven – 400 yr = 409 AC\n\nCamus &amp; Sarya Lightfoot - GrandParents - -400 = 009 AC\n\nFilverl &amp; Syllia Lightfoot - Great Grand Parents – 500 = -491 BC\n\nJournal of Filverl Lightfoot\n\nDate: 350 years Before Cataclysm\n\n- I met the most interesting young man today. He hailed from a land to\nthe far west and told me of many great tales. He said his name was\nBrother Salla, from the land of the Star. We welcomed him in from his\ntravels and gave him leave to stay for a bit.\n\n345 yr BC\n\n- It is time for another unfortunate culling. The Glades have been\nrather fruitful these last few years and have exceeded their population\nquota. I have ordered another round of barges to be constructed to\ntransport the workers to the Pale Lake. It is called the Pale Lake due\nto the reflection of the snow capped Bone Mountains, although we refer\nto it’s nickname, Gravestone, as it is the final resting place of the\nexcess population of the Glades.\n\n- 343 yr BC\n\nBrother Salla has returned for another visit, bringing good tidings.\nAware of our issue of excess people he had a most interesting proposal.\nHe mentioned a people known as the Arnieans to the south, who might\nprovide a profitable avenue for our excess population. I agreed to send\nan envoy, my son Camus, with his people on a voyage to see what might\nbecome of it.\n\n-342 yr BC\n\nBrother Salla proposed a venture that we might embark upon to eliminate\nthe need for the distasteful need to eliminate excess population.\nApparently he has knowledge of efforts to create men of metal. He thinks\nthat these metal men, if properly animated, might be able to be our\nworkers and soldiers, freeing us from our need to keep the Glades. It\nwas not all that long ago that we had to fight off another major Goblin\nincursion from the North. We did find their tunnel and collapse it, but\nnot without great cost. Without the glades, or a suitable replacement,\nthe Elvish birthrate will not sustain the numbers needed to fight off\nthe hordes of the north, not to mention the Dwarves out to the west whom\nwe must keep an eye on.\n\nI sent an envoy with Brother Salla on his last trip back home to the\nStar lands. It seems to be just another Human kingdom that springs up\nlike a perennial weed in the ruins of another, older civilization. There\nis some potential there, but they are busy squabbling amongst each other\nand likely don’t realize what they have.\n\n- 341 yr BC\n\nCamus returned from the Arniean trip. It seems that the Arnieans are in\nneed of good workers and are very eager to take on our surplus. They are\nwilling to pay quite handsomely for a quantity of good workers. I will\nbring this up with the other Houses at the next Gathering.\n\n- 338 yr BC\n\nThe Gathering was amenable to the idea of delivering the excess to the\nArnieans, much more palatable and less wasteful than sending them to the\nbottom of Gravestone Lake. Aptly named indeed for the countless souls\nwho call those waters their final home. The Council has commissioned\ntransports to deliver the excess to the Arnieans. As a bonus, this\nagreement has reduced the effect of piracy on our fleets. Apparently,\npiracy is a hobby of some of the Arniean clans, but they have apparently\nbeen brought to heel to leave our ships unmolested. It has been sometime\nsince we have gotten a trade convoy through to Castlemarch by sea.\n\n- 325 yr BC\n\nBrother Salla has returned to us once more, but I fear this will be his\nlast visit as he is an old man now. He did bring a young Sister Rasha\nwith him, who is his protégé. We have sent several transports to the\nArnieans. With the extra wealth in hand, I have agreed to fund the\neffort to make the metal men.\n\n-275 yr BC\n\nConstruction on the laboratory is nearly complete. There were some\nnatural caves to the north east that we were able to expand and with the\nhelp of Sister Salla, make into a suitable research facility to continue\nthe efforts. The initial efforts have been rudimentary at best. We are\nworking to recruit more capable artisans. However, it is somewhat\ndifficult to recruit the talent, due to the secrecy of the project. It\nhas the potential to revolutionize the world. I am pleased to see Camus\ntaking quite the interest in the project.\n\n- 270 yr BC\n\nI’ve turned over the metal men project to Camus, as I’ve decided to\nrelocate to Yemthas to attend to matters between the Houses. Sister Mira\narrived today as Sister Salla’s replacement. It seems Camus has taken a\nfancy to her. The poor humans, their lives go by so quickly. It’s a\nwonder they accomplish what they do. They have crafted several\nprototypes, but as yet have not achieved any form of animation that is\nworthwhile.</pre></div>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!f54ca46bff17def4.633e1c1ccfec0110"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "handout",
+        "Lightfoot",
+        "Gravestone"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!f54ca46bff17def4"
+}

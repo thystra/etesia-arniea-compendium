@@ -1,0 +1,116 @@
+{
+  "_id": "74fd885e80a02e07",
+  "name": "Peacebond",
+  "type": "equipment",
+  "img": "icons/sundries/flags/banner-sword-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Item: Peacebond.</p><p>The peacebond is a silvery string of varying lengths used by city guards to secure traveler&#x27;s weapons. The weapons are wired to their scabbard, or in the case of a bow, the string to staves, or other appropriate non-firing position for crossbows.</p><p>The Peacebond may be broken by using an action to break it and make the weapon usable again.</p><p>If the Peacebond is broken, the Town guard will be alerted to the loss of the peace bond, and general location of it in the city. The Guards will know which bond is assigned/registered to which person.</p><p>A broken Peacebond will result in a squad of soldiers being dispatched to the area with in 2D6 minutes.</p><p>The magical link may be dispelled with a DC 18, however the guards will know that the bond has been broken.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Item — Weapon Peace Bond",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "Break the peacebond to make the secured weapon usable."
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "object"
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": []
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "Guard response 2d6 minutes; Dispel Magic DC 18",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "dex": null
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": false,
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!74fd885e80a02e07"
+}

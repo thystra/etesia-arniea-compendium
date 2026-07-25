@@ -1,0 +1,164 @@
+{
+  "_id": "74f46e209b13a921",
+  "name": "Skyefyre",
+  "type": "weapon",
+  "img": "icons/weapons/bows/longbow-gold-pink.webp",
+  "system": {
+    "description": {
+      "value": "<p>Skyefyre – Lightfoot family heirloom longbow.</p><p>Skyefyre is an ornately crafted longbow. The grip of the bow is crafted to resemble the talons of a hawk, curled around the limbs of the bow. The limbs of the bow transition from smooth wood to a design of finely carved feathers. The carving on the bow is very lifelike, and as one watches them, you could swear you see the feathers move on their own. The bow feels very light in the hands, almost effortless to hold and move.</p><p>Requires attunement</p><p>+1 Longbow</p><p>+5 feet movement speed while the bow is attuned and carried on your person</p><p>Special Abilities:</p><p>The bow has 2 charges per day</p><p>Charges recover at dawn</p><p>Double shot (1 charge)</p><ul><li>Fire a two arrows at the same target on the same attack.</li></ul><p>Splitshot (1 charge)</p><p>each target in the same attack.</p><ul><li>Fire two arrows at two different targets with a -3 modifier to hit</li></ul><p>For either case:</p><p>Independently roll for each arrow’s attack with a straight roll, regardless if advantage is granted to the player, unless disadvantage is imposed on the attack then roll both attacks independently at disadvantage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Item — Skyefyre, Lightfoot Family Heirloom",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 2,
+    "equipped": true,
+    "rarity": "rare",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 150,
+      "long": 600,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 2,
+      "max": "2",
+      "per": "day",
+      "recovery": []
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "rwak",
+    "attackBonus": "1",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod + 1",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "weaponType": "martialR",
+    "baseItem": "longbow",
+    "properties": [
+      "amm",
+      "hvy",
+      "mgc",
+      "two"
+    ],
+    "proficient": true
+  },
+  "effects": [
+    {
+      "_id": "638df54b067f345b",
+      "name": "Skyefyre — Fleet of Foot",
+      "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "5",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "etesia-arniea-compendium": {
+          "initialRelease": "0.1.0"
+        }
+      },
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!74f46e209b13a921.638df54b067f345b"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!74f46e209b13a921"
+}

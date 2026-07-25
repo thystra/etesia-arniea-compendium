@@ -1,0 +1,113 @@
+{
+  "_id": "ecf6428f405c86ae",
+  "name": "Handout — Gravestone Facility Letter",
+  "pages": [
+    {
+      "_id": "73ecf095ada0b962",
+      "name": "Page 1",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "Recovered and damaged letter, page 1."
+      },
+      "text": {
+        "format": 1,
+        "content": "",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/etesia-arniea-compendium/assets/handouts/gravestone-facility-letter-1.jpg",
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!ecf6428f405c86ae.73ecf095ada0b962"
+    },
+    {
+      "_id": "cd94cd8ef137efa2",
+      "name": "Page 2",
+      "type": "image",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "Recovered and damaged letter, page 2."
+      },
+      "text": {
+        "format": 1,
+        "content": "",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/etesia-arniea-compendium/assets/handouts/gravestone-facility-letter-2.jpg",
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!ecf6428f405c86ae.cd94cd8ef137efa2"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "handout",
+        "SSE",
+        "Gravestone"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!ecf6428f405c86ae"
+}

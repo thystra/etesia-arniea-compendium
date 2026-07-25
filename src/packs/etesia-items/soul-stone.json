@@ -1,0 +1,116 @@
+{
+  "_id": "fdade9ac7e92be1f",
+  "name": "Soul Stone",
+  "type": "equipment",
+  "img": "icons/commodities/gems/gem-faceted-teardrop-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A soul stone is a pre-Cataclysm Shining Star device used as a conduit for transferring soul energy into constructed bodies. Research from Gravestone indicates that souls from Celestial-influenced lineages produced the most effective stones. The stones are not necessarily consumed during transference, though a portion of a soul may pass into a constructed body and result in independent sentience. No portable player-facing mechanical benefit is defined in the available source material.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Gravestone and Shining Star research records",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": 1,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "artifact",
+    "identified": true,
+    "activation": {
+      "type": "special",
+      "cost": 0,
+      "condition": "Requires specialized Shining Star machinery and rites."
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": []
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "dex": null
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": false,
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!fdade9ac7e92be1f"
+}

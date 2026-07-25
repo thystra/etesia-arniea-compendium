@@ -1,0 +1,116 @@
+{
+  "_id": "def3418aec67c73e",
+  "name": "Sentinel Statue",
+  "type": "equipment",
+  "img": "icons/environment/settlement/statue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Sentinels – Fixed statues / objects that monitor city entrances</p><p>changers (Divination School)</p><ul><li>True Seeing - Truesight to see through illusions / true form / shape</li></ul><ul><li>Detect magic operates in their area of effect (Divination)</li></ul><p>/ anomalies</p><ul><li>Through tokens/amulets, allows the guards to perceive detected things</li></ul><p>(Divination)</p><ul><li>Detects undead, aberrations, constructs, fey, Fiends, Celestials</li></ul><p>Level 9 spell for purposes of dispel magic (DC 19)</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Item — Sentinel Statues",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "artifact",
+    "identified": true,
+    "activation": {
+      "type": "special",
+      "cost": 0,
+      "condition": "Fixed installation at a controlled entrance."
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "area"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": []
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "9th-level effect for Dispel Magic; DC 19",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": 0,
+      "dex": null
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": false,
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!def3418aec67c73e"
+}

@@ -1,0 +1,70 @@
+{
+  "_id": "2293fc211307b18f",
+  "name": "GM — Faction Design Guide",
+  "pages": [
+    {
+      "_id": "3c5ec7c18c475d88",
+      "name": "Guide",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "\n<h2>Initial Faction Design Notes</h2>\n<h3>Shining Star Empire / Protectorate</h3>\n<p>The SSE and SSP use a Catholic-inspired ecclesiastical structure. Their anti-magic doctrine coexists with privileged clerical power and elite dispensations. Their armed forces combine disciplined conventional troops, support clergy, mechanical contrivances, and rediscovered war-golem technology.</p>\n<h3>Kergrin</h3>\n<p>Kergrin combines Nordic-inspired honor, kinship, craft, oathkeeping, martial readiness, and ancestral memory with dwarvish lore. The pre-Cataclysm illusion-concealed war-golem attack remains only a few Dwarven generations removed.</p>\n<h3>Yemthas</h3>\n<p>Yemthas is an insular Elven kingdom loosely inspired by North Korea. Foreign access is tightly controlled; outsiders are confined to approved routes and trade areas, while movement and information within the kingdom are managed through patrols, houses, and local administrative structures.</p>\n<h3>Castlemarch</h3>\n<p>Castlemarch draws on Byzantine Constantinople: a wealthy strategic choke point, layered bureaucracy, court politics, trade, and carefully managed criminal and intelligence networks.</p>\n",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "3.3.1",
+        "createdTime": 1785020000000,
+        "modifiedTime": 1785020000000,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!journal.pages!2293fc211307b18f.3c5ec7c18c475d88"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "tags": [
+        "GM",
+        "faction"
+      ],
+      "initialRelease": "0.1.0"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "3.3.1",
+    "createdTime": 1785020000000,
+    "modifiedTime": 1785020000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!2293fc211307b18f"
+}

@@ -1,0 +1,9 @@
+.etesia-source-transcription pre {
+  white-space: pre-wrap;
+  font-family: var(--font-body, serif);
+  line-height: 1.45;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0.75rem;
+}
+.etesia-source-transcription table { width: 100%; }
