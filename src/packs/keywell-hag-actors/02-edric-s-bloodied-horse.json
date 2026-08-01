@@ -2,7 +2,7 @@
   "_id": "8fb00788f9730bfd",
   "name": "Edric's Bloodied Horse",
   "type": "npc",
-  "img": "icons/svg/horse.svg",
+  "img": "modules/etesia-arniea-compendium/assets/actors/keywell/edrics-bloodied-horse.webp",
   "system": {
     "abilities": {
       "str": {
@@ -159,7 +159,7 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "icons/svg/horse.svg",
+      "src": "modules/etesia-arniea-compendium/assets/actors/keywell/edrics-bloodied-horse.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

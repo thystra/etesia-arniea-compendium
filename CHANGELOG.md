@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.4 - Keywell Portraits and Actor Corrections
+
+- Added packaged portraits for all seven Keywell Hag Encounter actors and their prototype tokens.
+- Converted Harald's divine abilities into true D&D5e Spell items so they appear in the Spells section.
+- Retained Harald's dawn-recovery daily limits and one tracked Resurrection Diamond.
+- Added packaged images for War Golem Mk I, Mk II, and Mk III and repaired their source actor references.
+- Added packaged artwork for all four Resurrection Diamond grades and repaired their item references.
+- Added module-local image validation to the repository validation gate.
+- Added suggested hag-house and clearing dimensions to the encounter documentation.
+
 ## 0.1.3 - Keywell Hag Encounter and Resurrection Diamonds
 
 - Added the `Etesia: Keywell Hag Encounter` actor compendium.

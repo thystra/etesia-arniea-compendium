@@ -2,7 +2,7 @@
   "_id": "edf8c0464a56670f",
   "name": "Memory Bundle",
   "type": "npc",
-  "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+  "img": "modules/etesia-arniea-compendium/assets/actors/keywell/memory-bundle.webp",
   "system": {
     "abilities": {
       "str": {
@@ -179,7 +179,7 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "icons/containers/bags/sack-simple-leather-brown.webp",
+      "src": "modules/etesia-arniea-compendium/assets/actors/keywell/memory-bundle.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

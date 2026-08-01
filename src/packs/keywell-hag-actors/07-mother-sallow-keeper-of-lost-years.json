@@ -2,7 +2,7 @@
   "_id": "ffd2fd1d655c45d0",
   "name": "Mother Sallow, Keeper of Lost Years",
   "type": "npc",
-  "img": "icons/creatures/magical/humanoid-silhouette-evil-green.webp",
+  "img": "modules/etesia-arniea-compendium/assets/actors/keywell/mother-sallow.webp",
   "system": {
     "abilities": {
       "str": {
@@ -168,7 +168,7 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "icons/creatures/magical/humanoid-silhouette-evil-green.webp",
+      "src": "modules/etesia-arniea-compendium/assets/actors/keywell/mother-sallow.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

@@ -2,7 +2,7 @@
   "_id": "0a233ef5639d45a3",
   "name": "Edric Vale, Wounded Woodsman",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/etesia-arniea-compendium/assets/actors/keywell/edric-vale.webp",
   "system": {
     "abilities": {
       "str": {
@@ -161,7 +161,7 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/etesia-arniea-compendium/assets/actors/keywell/edric-vale.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

@@ -2,7 +2,7 @@
   "_id": "ea1099ec61e58991",
   "name": "Harald, Keywell Field Healer",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/etesia-arniea-compendium/assets/actors/keywell/harald.webp",
   "system": {
     "abilities": {
       "str": {
@@ -93,12 +93,12 @@
         "units": "ft",
         "special": ""
       },
-      "spellcasting": "",
+      "spellcasting": "wis",
       "prof": 3
     },
     "details": {
       "biography": {
-        "value": "<p>An encounter-specific NPC support version of Harald, built to keep pace with a level-8 party without becoming a fourth primary combatant.</p><p><strong>Spell save DC 15; spell attack +7.</strong> His limited spell-like uses recover at dawn. He carries exactly one standard Resurrection Diamond, tracked as a separate inventory item.</p><p>His principal role in the Keywell encounter is to heal, ward, free, and escort Edric and Mara. This actor is deliberately named separately so it does not silently overwrite an existing world actor.</p>",
+        "value": "<p>An encounter-specific NPC support version of Harald, built to keep pace with a level-8 party without becoming a fourth primary combatant.</p><p><strong>Spell save DC 15; spell attack +7.</strong> His divine abilities are true Spell items; limited uses recover at dawn. He carries exactly one standard Resurrection Diamond, tracked as a separate inventory item.</p><p>His principal role in the Keywell encounter is to heal, ward, free, and escort Edric and Mara. This actor is deliberately named separately so it does not silently overwrite an existing world actor.</p>",
         "public": ""
       },
       "alignment": "Neutral Good",
@@ -111,7 +111,7 @@
       },
       "environment": "Keywell and the surrounding forest",
       "cr": 3,
-      "spellLevel": 0,
+      "spellLevel": 8,
       "source": {
         "custom": "Etesia Campaign",
         "rules": "2024",
@@ -161,7 +161,7 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/etesia-arniea-compendium/assets/actors/keywell/harald.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,
@@ -225,7 +225,7 @@
     {
       "_id": "53638c08d4070dc6",
       "name": "Guidance",
-      "type": "feat",
+      "type": "spell",
       "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
       "system": {
         "description": {
@@ -244,16 +244,102 @@
           "spent": 0,
           "recovery": []
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 0,
+        "school": "div",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [
+          "concentration"
+        ],
+        "activities": {
+          "0b543b23cb732209": {
+            "_id": "0b543b23cb732209",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Guidance"
+            },
+            "duration": {
+              "concentration": true,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Guidance",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
         "identifier": "guidance"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": false,
+          "recovery": "at-will"
+        }
+      },
       "sort": 100000,
       "ownership": {
         "default": 0
@@ -263,7 +349,7 @@
     {
       "_id": "df0215d5446fcb12",
       "name": "Light",
-      "type": "feat",
+      "type": "spell",
       "img": "icons/magic/light/explosion-star-small-blue-yellow.webp",
       "system": {
         "description": {
@@ -282,16 +368,100 @@
           "spent": 0,
           "recovery": []
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
+        "activities": {
+          "21ea2a58252e1acc": {
+            "_id": "21ea2a58252e1acc",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Light"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "hour",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "object",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Light",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
         "identifier": "light"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": false,
+          "recovery": "at-will"
+        }
+      },
       "sort": 105000,
       "ownership": {
         "default": 0
@@ -301,7 +471,7 @@
     {
       "_id": "92bf76d0819c2917",
       "name": "Sacred Flame",
-      "type": "feat",
+      "type": "spell",
       "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
       "system": {
         "description": {
@@ -320,11 +490,19 @@
           "spent": 0,
           "recovery": []
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
         "activities": {
           "19eea44ee0dcb2ba": {
             "_id": "19eea44ee0dcb2ba",
@@ -436,7 +614,12 @@
         "identifier": "sacred-flame"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": false,
+          "recovery": "at-will"
+        }
+      },
       "sort": 110000,
       "ownership": {
         "default": 0
@@ -446,7 +629,7 @@
     {
       "_id": "36f9abb042f3fb4d",
       "name": "Spare the Dying",
-      "type": "feat",
+      "type": "spell",
       "img": "icons/magic/life/heart-shadow-red.webp",
       "system": {
         "description": {
@@ -465,16 +648,100 @@
           "spent": 0,
           "recovery": []
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 0,
+        "school": "nec",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
+        "activities": {
+          "b45d8ecd2baa7df3": {
+            "_id": "b45d8ecd2baa7df3",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Spare the Dying"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 15,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Spare the Dying",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
         "identifier": "spare-the-dying"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": false,
+          "recovery": "at-will"
+        }
+      },
       "sort": 115000,
       "ownership": {
         "default": 0
@@ -484,7 +751,7 @@
     {
       "_id": "8973546b5ec2d5f7",
       "name": "Thaumaturgy",
-      "type": "feat",
+      "type": "spell",
       "img": "icons/magic/holy/chalice-glowing-gold-water.webp",
       "system": {
         "description": {
@@ -503,16 +770,100 @@
           "spent": 0,
           "recovery": []
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 0,
+        "school": "trs",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
+        "activities": {
+          "21459b414a6c813a": {
+            "_id": "21459b414a6c813a",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Thaumaturgy"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 30,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Thaumaturgy",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
         "identifier": "thaumaturgy"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": false,
+          "recovery": "at-will"
+        }
+      },
       "sort": 120000,
       "ownership": {
         "default": 0
@@ -521,8 +872,8 @@
     },
     {
       "_id": "6af37b8bbe5d9286",
-      "name": "Healing Word (3/Day)",
-      "type": "feat",
+      "name": "Healing Word",
+      "type": "spell",
       "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
       "system": {
         "description": {
@@ -547,11 +898,19 @@
             }
           ]
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 1,
+        "school": "abj",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
         "activities": {
           "e061c117a8a63066": {
             "_id": "e061c117a8a63066",
@@ -641,10 +1000,15 @@
             }
           }
         },
-        "identifier": "healing-word-3-day"
+        "identifier": "healing-word"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": true,
+          "recovery": "dawn"
+        }
+      },
       "sort": 130000,
       "ownership": {
         "default": 0
@@ -653,8 +1017,8 @@
     },
     {
       "_id": "032a66949724f3f4",
-      "name": "Cure Wounds (2/Day)",
-      "type": "feat",
+      "name": "Cure Wounds",
+      "type": "spell",
       "img": "icons/magic/life/heart-hand-gold-green.webp",
       "system": {
         "description": {
@@ -679,11 +1043,19 @@
             }
           ]
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 1,
+        "school": "abj",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
         "activities": {
           "a15f7bfcf29a4a75": {
             "_id": "a15f7bfcf29a4a75",
@@ -773,10 +1145,15 @@
             }
           }
         },
-        "identifier": "cure-wounds-2-day"
+        "identifier": "cure-wounds"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": true,
+          "recovery": "dawn"
+        }
+      },
       "sort": 140000,
       "ownership": {
         "default": 0
@@ -785,8 +1162,8 @@
     },
     {
       "_id": "31bc0aefb5bd3394",
-      "name": "Aid (1/Day)",
-      "type": "feat",
+      "name": "Aid",
+      "type": "spell",
       "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
       "system": {
         "description": {
@@ -811,16 +1188,100 @@
             }
           ]
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 2,
+        "school": "abj",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
-        "identifier": "aid-1-day"
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
+        "activities": {
+          "b74f1256230e45f5": {
+            "_id": "b74f1256230e45f5",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Aid"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "8",
+              "units": "hour",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 30,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "3",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Aid",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "aid"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": true,
+          "recovery": "dawn"
+        }
+      },
       "sort": 150000,
       "ownership": {
         "default": 0
@@ -829,8 +1290,8 @@
     },
     {
       "_id": "a153876d2d4e8e6a",
-      "name": "Bless (1/Day)",
-      "type": "feat",
+      "name": "Bless",
+      "type": "spell",
       "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
       "system": {
         "description": {
@@ -855,16 +1316,102 @@
             }
           ]
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 1,
+        "school": "enc",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
-        "identifier": "bless-1-day"
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [
+          "concentration"
+        ],
+        "activities": {
+          "f71610179f8a1e60": {
+            "_id": "f71610179f8a1e60",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Bless"
+            },
+            "duration": {
+              "concentration": true,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 30,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "3",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Bless",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "bless"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": true,
+          "recovery": "dawn"
+        }
+      },
       "sort": 160000,
       "ownership": {
         "default": 0
@@ -873,8 +1420,8 @@
     },
     {
       "_id": "0ee13e9d899b5ad6",
-      "name": "Lesser Restoration (1/Day)",
-      "type": "feat",
+      "name": "Lesser Restoration",
+      "type": "spell",
       "img": "icons/magic/life/cross-area-circle-green-white.webp",
       "system": {
         "description": {
@@ -899,16 +1446,100 @@
             }
           ]
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 2,
+        "school": "abj",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
-        "identifier": "lesser-restoration-1-day"
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
+        "activities": {
+          "978da87081235590": {
+            "_id": "978da87081235590",
+            "type": "utility",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Lesser Restoration"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Lesser Restoration",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "lesser-restoration"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": true,
+          "recovery": "dawn"
+        }
+      },
       "sort": 170000,
       "ownership": {
         "default": 0
@@ -917,8 +1548,8 @@
     },
     {
       "_id": "15a4fc5390184780",
-      "name": "Sanctuary (1/Day)",
-      "type": "feat",
+      "name": "Sanctuary",
+      "type": "spell",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
       "system": {
         "description": {
@@ -943,16 +1574,100 @@
             }
           ]
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 1,
+        "school": "abj",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
-        "identifier": "sanctuary-1-day"
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
+        "activities": {
+          "c35a522e003c051e": {
+            "_id": "c35a522e003c051e",
+            "type": "utility",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Sanctuary"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 30,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Sanctuary",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "sanctuary"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": true,
+          "recovery": "dawn"
+        }
+      },
       "sort": 180000,
       "ownership": {
         "default": 0
@@ -961,8 +1676,8 @@
     },
     {
       "_id": "3707dd1f1cb36528",
-      "name": "Mass Healing Word (1/Day)",
-      "type": "feat",
+      "name": "Mass Healing Word",
+      "type": "spell",
       "img": "icons/magic/life/heart-area-circle-red-green.webp",
       "system": {
         "description": {
@@ -987,11 +1702,19 @@
             }
           ]
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 3,
+        "school": "abj",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
         "activities": {
           "a0c1ea41faec7d2d": {
             "_id": "a0c1ea41faec7d2d",
@@ -1081,10 +1804,15 @@
             }
           }
         },
-        "identifier": "mass-healing-word-1-day"
+        "identifier": "mass-healing-word"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": true,
+          "recovery": "dawn"
+        }
+      },
       "sort": 190000,
       "ownership": {
         "default": 0
@@ -1093,8 +1821,8 @@
     },
     {
       "_id": "041ec19b944ad3ee",
-      "name": "Prayer of Healing (1/Day)",
-      "type": "feat",
+      "name": "Prayer of Healing",
+      "type": "spell",
       "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
       "system": {
         "description": {
@@ -1119,16 +1847,100 @@
             }
           ]
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 2,
+        "school": "abj",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
-        "identifier": "prayer-of-healing-1-day"
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
+        "activities": {
+          "8bea17f8c618243f": {
+            "_id": "8bea17f8c618243f",
+            "type": "utility",
+            "activation": {
+              "type": "minute",
+              "value": 10,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Prayer of Healing"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 30,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "5",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Prayer of Healing",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "prayer-of-healing"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": true,
+          "recovery": "dawn"
+        }
+      },
       "sort": 200000,
       "ownership": {
         "default": 0
@@ -1137,8 +1949,8 @@
     },
     {
       "_id": "7cd10d7f01f36a1c",
-      "name": "Gentle Repose (1/Day)",
-      "type": "feat",
+      "name": "Gentle Repose",
+      "type": "spell",
       "img": "icons/magic/death/skull-humanoid-crown-white-blue.webp",
       "system": {
         "description": {
@@ -1163,16 +1975,100 @@
             }
           ]
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 2,
+        "school": "nec",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
-        "identifier": "gentle-repose-1-day"
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
+        "activities": {
+          "c527ce61b4440c11": {
+            "_id": "c527ce61b4440c11",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Gentle Repose"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "10",
+              "units": "day",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Gentle Repose",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "gentle-repose"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": true,
+          "recovery": "dawn"
+        }
+      },
       "sort": 210000,
       "ownership": {
         "default": 0
@@ -1181,8 +2077,8 @@
     },
     {
       "_id": "87df004cdd1418ef",
-      "name": "Revivify (1/Day; Resurrection Diamond)",
-      "type": "feat",
+      "name": "Revivify",
+      "type": "spell",
       "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
       "system": {
         "description": {
@@ -1207,16 +2103,100 @@
             }
           ]
         },
-        "type": {
-          "value": "monster",
-          "subtype": ""
+        "level": 3,
+        "school": "nec",
+        "materials": {
+          "value": "One Resurrection Diamond",
+          "consumed": true,
+          "cost": 0,
+          "supply": 0
         },
-        "requirements": "",
-        "activities": {},
-        "identifier": "revivify-1-day-resurrection-diamond"
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [],
+        "activities": {
+          "5a3220415c72794f": {
+            "_id": "5a3220415c72794f",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Revivify"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Revivify",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "revivify"
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "etesia-arniea-compendium": {
+          "npcLimitedSpell": true,
+          "recovery": "dawn"
+        }
+      },
       "sort": 220000,
       "ownership": {
         "default": 0
@@ -1449,7 +2429,7 @@
       "_id": "f079254c9c6a36a9",
       "name": "Resurrection Diamond",
       "type": "loot",
-      "img": "icons/commodities/gems/gem-faceted-diamond-silver.webp",
+      "img": "modules/etesia-arniea-compendium/assets/items/resurrection-diamonds/resurrection-diamond.webp",
       "system": {
         "description": {
           "value": "<p>A specially prepared soul anchor. An ordinary diamond cannot substitute for it. Harald carries one stone; a successful <em>Revivify</em> consumes it permanently.</p>",

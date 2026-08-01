@@ -2,7 +2,7 @@
   "_id": "8f4f50603720ea8a",
   "name": "Mara Vale, the Unaged Child",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/etesia-arniea-compendium/assets/actors/keywell/mara-vale.webp",
   "system": {
     "abilities": {
       "str": {
@@ -161,7 +161,7 @@
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/etesia-arniea-compendium/assets/actors/keywell/mara-vale.webp",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

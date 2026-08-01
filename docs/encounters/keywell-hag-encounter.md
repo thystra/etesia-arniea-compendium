@@ -2,7 +2,7 @@
 
 <!-- /home/alan/src/etesia-arniea-compendium/docs/encounters/keywell-hag-encounter.md -->
 
-Module version: **0.1.3**
+Module version: **0.1.4**
 
 ## Intended party
 
@@ -28,8 +28,15 @@ Mother Sallow abducted Mara into a shallow border between Etesia and the Feywild
 - **Memory Bundle** - place three copies as destructible encounter objectives
 - **Edric Vale, Wounded Woodsman** - stable at 0 HP, restrained, and under Borrowed Time
 - **Mara Vale, the Unaged Child** - noncombatant witness and rescue objective
-- **Harald, Keywell Field Healer** - encounter-specific support copy with dawn-recovery healing, Sanctuary, Prayer of Healing, Revivify, breastplate, shield, and one Resurrection Diamond
+- **Harald, Keywell Field Healer** - encounter-specific support copy with true Spell items, dawn-recovery limited uses, breastplate, shield, and one Resurrection Diamond
 - **Edric's Bloodied Horse** - opening hook and clue carrier
+
+
+## Suggested hag-house dimensions
+
+Use a **50-by-40-foot exterior footprint** (10 by 8 five-foot squares) with a 10-by-20-foot front porch. A practical interior is a 30-by-25-foot central room plus two or three 10-to-15-foot side rooms. Place the house in a clearing of at least **100 by 100 feet**; 120 by 100 feet gives the Hollowoak Guardian and mobile warlocks more room.
+
+If the full boss fight will occur indoors, expand the house to **60 by 50 feet** (12 by 10 squares). The Large guardian otherwise works best outside, partly through a damaged wall, or guarding the porch. An optional root cellar can be about 30 by 25 feet.
 
 ## Finale setup
 

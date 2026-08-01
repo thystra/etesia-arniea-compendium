@@ -2,7 +2,7 @@
   "_id": "548b4aad6aacd0c5",
   "name": "Sovereign Resurrection Diamond",
   "type": "loot",
-  "img": "icons/commodities/gems/gem-faceted-diamond-purple.webp",
+  "img": "modules/etesia-arniea-compendium/assets/items/resurrection-diamonds/sovereign-resurrection-diamond.webp",
   "system": {
     "description": {
       "value": "<p>A resurrection diamond is a specially prepared metaphysical anchor. An ordinary diamond, regardless of value or purity, cannot substitute for it.</p><p>A high-grade soul anchor whose preparation is normally controlled by a crown, great temple, ancient order, or comparable power. It is intended for major resurrection rites and diplomatic or strategic custody.</p><p><strong>Provisional design note:</strong> its exact spell equivalencies and substitution ratios remain undefined.</p>",

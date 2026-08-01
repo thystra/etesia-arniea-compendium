@@ -2,7 +2,7 @@
   "_id": "65e4880b382dd59f",
   "name": "Consecrated Resurrection Diamond",
   "type": "loot",
-  "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
+  "img": "modules/etesia-arniea-compendium/assets/items/resurrection-diamonds/consecrated-resurrection-diamond.webp",
   "system": {
     "description": {
       "value": "<p>A resurrection diamond is a specially prepared metaphysical anchor. An ordinary diamond, regardless of value or purity, cannot substitute for it.</p><p>A standard resurrection diamond that has undergone sustained temple consecration and soul-anchoring rites. It is intended as the first higher grade for stronger resurrection magic.</p><p><strong>Provisional design note:</strong> a future rule may allow one consecrated stone in place of two standard resurrection diamonds for <em>Raise Dead</em>. No exchange rate is final until the GM adopts it.</p>",

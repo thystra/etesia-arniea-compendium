@@ -2,7 +2,7 @@
   "_id": "e6c007cbdf900a42",
   "name": "Resurrection Diamond",
   "type": "loot",
-  "img": "icons/commodities/gems/gem-faceted-diamond-silver.webp",
+  "img": "modules/etesia-arniea-compendium/assets/items/resurrection-diamonds/resurrection-diamond.webp",
   "system": {
     "description": {
       "value": "<p>A resurrection diamond is a specially prepared metaphysical anchor. An ordinary diamond, regardless of value or purity, cannot substitute for it.</p><p><strong>Established use:</strong> one stone is consumed when <em>Revivify</em> succeeds. The campaign has also previously used two standard stones for <em>Resurrection</em>. The stone is controlled by quantity, not by a conventional gold-piece value.</p>",

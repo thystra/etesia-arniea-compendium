@@ -2,7 +2,7 @@
   "_id": "10e0414cf3882746",
   "name": "War Golem Mk III",
   "type": "npc",
-  "img": "icons/svg/golem.svg",
+  "img": "modules/etesia-arniea-compendium/assets/actors/war-golems/war-golem-mk-iii.webp",
   "system": {
     "abilities": {
       "str": {
@@ -245,7 +245,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/golem.svg",
+      "src": "modules/etesia-arniea-compendium/assets/actors/war-golems/war-golem-mk-iii.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
