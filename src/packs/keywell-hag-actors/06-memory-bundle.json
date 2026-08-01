@@ -1,0 +1,380 @@
+{
+  "_id": "edf8c0464a56670f",
+  "name": "Memory Bundle",
+  "type": "npc",
+  "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 1,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 1,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 1,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 1,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 1,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "natural",
+        "formula": "15"
+      },
+      "hp": {
+        "value": 15,
+        "max": 15,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": ""
+      },
+      "init": {
+        "ability": "",
+        "bonus": "",
+        "roll": {
+          "mode": 0,
+          "min": null,
+          "max": null
+        }
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 0,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 0
+    },
+    "details": {
+      "biography": {
+        "value": "<p>A child-sized bundle of hair, cloth, twine, and preserved memories. Three copies serve as encounter objectives and progressively strip Mother Sallow's defenses.</p>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "race": "",
+      "type": {
+        "value": "construct",
+        "subtype": "fey object",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "Keywell and the surrounding forest",
+      "cr": 0,
+      "spellLevel": 0,
+      "source": {
+        "custom": "Etesia Campaign",
+        "rules": "2024",
+        "revision": 1,
+        "license": "Homebrew - Personal Campaign",
+        "book": ""
+      }
+    },
+    "traits": {
+      "size": "tiny",
+      "di": {
+        "value": [
+          "poison",
+          "psychic"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [
+          "fire",
+          "slashing"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "exhaustion",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained",
+          "stunned",
+          "unconscious"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {}
+  },
+  "prototypeToken": {
+    "name": "Memory Bundle",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/containers/bags/sack-simple-leather-brown.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "items": [
+    {
+      "_id": "38a83595cfc3898f",
+      "name": "Fragile Fey Vessel",
+      "type": "feat",
+      "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>The bundle has AC 15 and 15 hit points. It is immune to Poison and Psychic damage and vulnerable to Fire and Slashing damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "fragile-fey-vessel"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!edf8c0464a56670f.38a83595cfc3898f"
+    },
+    {
+      "_id": "a4e3a4bea2a0f26c",
+      "name": "Open Carefully",
+      "type": "feat",
+      "img": "icons/tools/hand/needle-simple-straight.webp",
+      "system": {
+        "description": {
+          "value": "<p>A creature adjacent to the bundle can use an action to attempt a <strong>DC 15 Arcana, Religion, or Sleight of Hand check</strong>. On a success, the bundle opens without being damaged and releases the trapped memory.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "open-carefully"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 110000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!edf8c0464a56670f.a4e3a4bea2a0f26c"
+    },
+    {
+      "_id": "18caafa3385b693e",
+      "name": "Bundle Sequence",
+      "type": "feat",
+      "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",
+      "system": {
+        "description": {
+          "value": "<p>Place three copies of this actor.</p><ol><li><strong>First opened/destroyed:</strong> remove one unused Legendary Resistance from Mother Sallow and refresh The Weight of Memory.</li><li><strong>Second:</strong> disable Step Between Stories.</li><li><strong>Third:</strong> disable Magic Resistance and end Mother Sallow's claim over Edric.</li></ol><p>When all three open, Mara regains her stolen memories.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "bundle-sequence"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 120000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!edf8c0464a56670f.18caafa3385b693e"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "encounter": "keywell-hag-encounter"
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785621600000,
+    "modifiedTime": 1785621600000,
+    "lastModifiedBy": "keywellhagbuild",
+    "exportSource": null
+  },
+  "_key": "!actors!edf8c0464a56670f"
+}

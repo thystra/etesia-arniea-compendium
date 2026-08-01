@@ -19,7 +19,8 @@ await fs.copyFile(path.join(root, "scripts", "etesia.mjs"), path.join(outRoot, "
 
 const packs = [
   ["etesia-actors", "Actor"], ["etesia-items", "Item"], ["etesia-journals", "JournalEntry"],
-  ["transfer-actors", "Actor"], ["transfer-items", "Item"], ["transfer-journals", "JournalEntry"]
+  ["transfer-actors", "Actor"], ["transfer-items", "Item"], ["transfer-journals", "JournalEntry"],
+  ["keywell-hag-actors", "Actor"]
 ];
 await fs.mkdir(path.join(outRoot, "packs"), { recursive: true });
 for (const [name] of packs) {

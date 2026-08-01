@@ -1,0 +1,362 @@
+{
+  "_id": "0a233ef5639d45a3",
+  "name": "Edric Vale, Wounded Woodsman",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "natural",
+        "formula": "12"
+      },
+      "hp": {
+        "value": 0,
+        "max": 18,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": ""
+      },
+      "init": {
+        "ability": "",
+        "bonus": "",
+        "roll": {
+          "mode": 0,
+          "min": null,
+          "max": null
+        }
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 2
+    },
+    "details": {
+      "biography": {
+        "value": "<p>An experienced Keywell woodsman who found Mara Vale and promised to bring her home. Mother Sallow treated that promise as acceptance of her debt.</p><p><strong>Starting state:</strong> 0 HP, stable, unconscious, prone, restrained, and afflicted by Borrowed Time.</p>",
+        "public": ""
+      },
+      "alignment": "Neutral Good",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "human",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "Keywell and the surrounding forest",
+      "cr": 0.125,
+      "spellLevel": 0,
+      "source": {
+        "custom": "Etesia Campaign",
+        "rules": "2024",
+        "revision": 1,
+        "license": "Homebrew - Personal Campaign",
+        "book": ""
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {}
+  },
+  "prototypeToken": {
+    "name": "Edric Vale, Wounded Woodsman",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "items": [
+    {
+      "_id": "9160781156752b0b",
+      "name": "Borrowed Time",
+      "type": "feat",
+      "img": "icons/magic/time/hourglass-brown-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>Mother Sallow has taken part of Edric's remaining lifespan as collateral.</p><ul><li>Edric has Disadvantage on Strength and Dexterity checks and saving throws.</li><li>His Speed is 10 feet.</li><li>He cannot regain hit points above 12.</li><li>He cannot take Reactions and may take either an Action or a Bonus Action on his turn, not both.</li><li>The condition ends when all three Memory Bundles open or Mother Sallow dies.</li></ul>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "borrowed-time"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0a233ef5639d45a3.9160781156752b0b"
+    },
+    {
+      "_id": "b793fadaae978dc6",
+      "name": "Wounded and Bound",
+      "type": "feat",
+      "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>Edric begins the encounter at 0 hit points, Unconscious but Stable, Prone, and Restrained by roots. Healing magic works normally and awakens him. An adjacent creature can use an action to free him automatically, or attempt a DC 14 Strength, Medicine, or Religion check if the GM wants uncertainty.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "wounded-and-bound"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 110000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0a233ef5639d45a3.b793fadaae978dc6"
+    },
+    {
+      "_id": "a616570afab42d82",
+      "name": "Warning: Do Not Promise Her Anything",
+      "type": "feat",
+      "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>After regaining consciousness, Edric warns the party: <em>\"Don't promise her anything. Not even that you'll get us out. The bundles are holding the child's years.\"</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "warning-do-not-promise-her-anything"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 120000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!0a233ef5639d45a3.a616570afab42d82"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "encounter": "keywell-hag-encounter"
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785621600000,
+    "modifiedTime": 1785621600000,
+    "lastModifiedBy": "keywellhagbuild",
+    "exportSource": null
+  },
+  "_key": "!actors!0a233ef5639d45a3"
+}

@@ -1,0 +1,1338 @@
+{
+  "_id": "ffd2fd1d655c45d0",
+  "name": "Mother Sallow, Keeper of Lost Years",
+  "type": "npc",
+  "img": "icons/creatures/magical/humanoid-silhouette-evil-green.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 16,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 15,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 16,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "natural",
+        "formula": "17"
+      },
+      "hp": {
+        "value": 125,
+        "max": 125,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": ""
+      },
+      "init": {
+        "ability": "",
+        "bonus": "",
+        "roll": {
+          "mode": 0,
+          "min": null,
+          "max": null
+        }
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 4
+    },
+    "details": {
+      "biography": {
+        "value": "<h2>Mother Sallow</h2><p>A contract-minded hag who stole Mara Vale seven years ago, though only a few days passed for the child. She claims Edric Vale owes payment after promising to return Mara home.</p><p><strong>Combat role:</strong> controller and mobile boss. Use saving-throw powers to pressure the party while the Hollowoak Guardian controls space. At 30 hit points or fewer, she offers to release Edric and Mara in exchange for safe passage.</p>",
+        "public": ""
+      },
+      "alignment": "Neutral Evil",
+      "race": "",
+      "type": {
+        "value": "fey",
+        "subtype": "hag",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "Keywell and the surrounding forest",
+      "cr": 8,
+      "spellLevel": 0,
+      "source": {
+        "custom": "Etesia Campaign",
+        "rules": "2024",
+        "revision": 1,
+        "license": "Homebrew - Personal Campaign",
+        "book": ""
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "cold",
+          "necrotic"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "elvish",
+          "sylvan"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {}
+  },
+  "prototypeToken": {
+    "name": "Mother Sallow, Keeper of Lost Years",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/creatures/magical/humanoid-silhouette-evil-green.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "items": [
+    {
+      "_id": "b8eca873e85d3fbb",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/skills/melee/claw-slashes-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>Mother Sallow makes two <strong>Crooked Claw</strong> attacks. She normally uses this only when a creature has closed with her; her save-based powers are her primary offense.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "multiattack"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.b8eca873e85d3fbb"
+    },
+    {
+      "_id": "ba57abc2125550b1",
+      "name": "Crooked Claw",
+      "type": "feat",
+      "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Melee Spell Attack:</strong> +8 to hit, reach 5 feet, one target. <strong>Hit:</strong> 13 (2d8 + 4) Slashing damage plus 3 (1d6) Necrotic damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {
+          "e276f3252d654f2b": {
+            "_id": "e276f3252d654f2b",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Crooked Claw"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 5,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Crooked Claw",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "8",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "spell"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "4",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "identifier": "crooked-claw"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 110000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.ba57abc2125550b1"
+    },
+    {
+      "_id": "52ce525aace86147",
+      "name": "Borrowed Years (Recharge 5-6)",
+      "type": "feat",
+      "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",
+      "system": {
+        "description": {
+          "value": "<p>One creature within 60 feet makes a <strong>DC 16 Constitution save</strong>. On a failure it takes 27 (6d8) Necrotic damage, its Speed is halved, it cannot take Reactions, and it can make only one weapon attack during its next turn. On a success it takes half damage with no additional effects.</p><p><strong>GM:</strong> Roll recharge manually at the start of Mother Sallow's turn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {
+          "58c9c2ebd01cdf51": {
+            "_id": "58c9c2ebd01cdf51",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Borrowed Years"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 60,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Borrowed Years",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "16"
+              }
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 6,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ],
+              "onSave": "half"
+            }
+          }
+        },
+        "identifier": "borrowed-years-recharge-5-6"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 120000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.52ce525aace86147"
+    },
+    {
+      "_id": "453c3035a2ab404d",
+      "name": "The Weight of Memory (1/Encounter)",
+      "type": "feat",
+      "img": "icons/magic/control/fear-fright-monster-grin-red-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>Mother Sallow chooses a point within 60 feet. Creatures of her choice in a 20-foot-radius sphere make a <strong>DC 16 Wisdom save</strong>. On a failure a creature takes 14 (4d6) Psychic damage and is Frightened until the end of Mother Sallow's next turn. On a success it takes half damage and is not Frightened.</p><p>Mother Sallow regains this use when the first Memory Bundle is opened or destroyed.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {
+          "da15c18c94e13920": {
+            "_id": "da15c18c94e13920",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "The Weight of Memory"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 60,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "sphere",
+                "size": "20",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "The Weight of Memory",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "16"
+              }
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 4,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "psychic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ],
+              "onSave": "half"
+            }
+          }
+        },
+        "identifier": "the-weight-of-memory-1-encounter"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 130000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.453c3035a2ab404d"
+    },
+    {
+      "_id": "107df8b9585ecd15",
+      "name": "Roots of the Broken Promise (Recharge 4-6)",
+      "type": "feat",
+      "img": "icons/magic/nature/root-vine-entangled-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>Roots erupt in a 15-foot cube within 60 feet. Creatures there make a <strong>DC 16 Strength save</strong>. On a failure a creature takes 10 (3d6) Bludgeoning damage and is Restrained. On a success it takes half damage and is not Restrained.</p><p>A restrained creature can use its action to make a DC 16 Strength or Dexterity check, ending the condition on itself on a success. The area is Difficult Terrain until the end of Mother Sallow's next turn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {
+          "e6ef289efca5c221": {
+            "_id": "e6ef289efca5c221",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Roots of the Broken Promise"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 60,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "cube",
+                "size": "15",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Roots of the Broken Promise",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "save": {
+              "ability": [
+                "str"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "16"
+              }
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ],
+              "onSave": "half"
+            }
+          }
+        },
+        "identifier": "roots-of-the-broken-promise-recharge-4-6"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 140000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.107df8b9585ecd15"
+    },
+    {
+      "_id": "ef97215568d4953f",
+      "name": "Step Between Stories",
+      "type": "feat",
+      "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Bonus Action.</strong> Mother Sallow teleports up to 30 feet to an unoccupied space beside a Memory Bundle, tree, doorway, or substantial shadow that she can see. She loses this feature after the second Memory Bundle is opened or destroyed.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "step-between-stories"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 150000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.ef97215568d4953f"
+    },
+    {
+      "_id": "bc878cd200bd13ed",
+      "name": "Twist the Bargain (1/Encounter)",
+      "type": "feat",
+      "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Reaction.</strong> When a creature Mother Sallow can see succeeds on a saving throw, she forces it to reroll that save and use the new result.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "twist-the-bargain-1-encounter"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 160000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.bc878cd200bd13ed"
+    },
+    {
+      "_id": "8094c304b14d1ef5",
+      "name": "Legendary Resistance (2/Day)",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-flaming-diamond-purple-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>If Mother Sallow fails a saving throw, she can choose to succeed instead. Opening or destroying the first Memory Bundle removes one unused use. The remaining use is intrinsic and is not removed by the other bundles.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "2",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "legendary-resistance-2-day"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 170000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.8094c304b14d1ef5"
+    },
+    {
+      "_id": "ed9e5a4b067caf4f",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Mother Sallow has Advantage on saving throws against spells and other magical effects. She loses this feature after the third Memory Bundle is opened or destroyed.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "magic-resistance"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 180000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.ed9e5a4b067caf4f"
+    },
+    {
+      "_id": "1c1f064f04b43b52",
+      "name": "Legendary Actions (2/round)",
+      "type": "feat",
+      "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+      "system": {
+        "description": {
+          "value": "<p>Mother Sallow can take two Legendary Actions each round, one at a time at the end of another creature's turn. She regains them at the start of her turn.</p><ul><li><strong>Scuttle.</strong> Move up to half her Speed without provoking Opportunity Attacks.</li><li><strong>Painful Recollection.</strong> One creature within 60 feet makes a DC 16 Wisdom save. On a failure it takes 2d8 Psychic damage and cannot take Reactions until the start of its next turn.</li><li><strong>Call the Roots (Costs 2).</strong> One creature on the ground within 60 feet makes a DC 16 Dexterity save. On a failure it takes 2d6 Bludgeoning damage and falls Prone.</li></ul>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {
+          "c909ef54a1f46089": {
+            "_id": "c909ef54a1f46089",
+            "type": "save",
+            "activation": {
+              "type": "legendary",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Painful Recollection"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 60,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Painful Recollection",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "16"
+              }
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "psychic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ],
+              "onSave": "half"
+            }
+          },
+          "5ccb1fcd2958811b": {
+            "_id": "5ccb1fcd2958811b",
+            "type": "save",
+            "activation": {
+              "type": "legendary",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Call the Roots"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 60,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Call the Roots",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "16"
+              }
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ],
+              "onSave": "half"
+            }
+          }
+        },
+        "identifier": "legendary-actions-2-round"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 190000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.1c1f064f04b43b52"
+    },
+    {
+      "_id": "934d78d10d9af3a3",
+      "name": "Memory-Bound Power",
+      "type": "feat",
+      "img": "icons/containers/bags/sack-simple-leather-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>Three Memory Bundles sustain parts of Mother Sallow's power.</p><ol><li><strong>First bundle:</strong> remove one unused Legendary Resistance and refresh The Weight of Memory.</li><li><strong>Second bundle:</strong> disable Step Between Stories.</li><li><strong>Third bundle:</strong> disable Magic Resistance.</li></ol><p>If all three bundles are opened, Mara's memories return and Mother Sallow's claim over Edric ends.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "memory-bound-power"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ffd2fd1d655c45d0.934d78d10d9af3a3"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "encounter": "keywell-hag-encounter"
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785621600000,
+    "modifiedTime": 1785621600000,
+    "lastModifiedBy": "keywellhagbuild",
+    "exportSource": null
+  },
+  "_key": "!actors!ffd2fd1d655c45d0"
+}

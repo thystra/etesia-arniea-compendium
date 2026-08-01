@@ -2,7 +2,7 @@
   "id": "etesia-arniea-compendium",
   "title": "Etesia–Arniea Campaign Compendium",
   "description": "Personal-use Etesia and Arniea campaign actors, items, journals, handouts, and world-transfer packs for Foundry VTT V14 and D&D5e 2024 rules.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     {
       "name": "Alan",
@@ -75,6 +75,25 @@
       "label": "World Transfer — Journals",
       "path": "packs/transfer-journals",
       "type": "JournalEntry"
+    },
+    {
+      "name": "keywell-hag-actors",
+      "label": "Etesia: Keywell Hag Encounter",
+      "system": "dnd5e",
+      "path": "packs/keywell-hag-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "sourceBook": "Etesia Campaign",
+          "types": [
+            "npc"
+          ]
+        }
+      }
     }
   ],
   "flags": {

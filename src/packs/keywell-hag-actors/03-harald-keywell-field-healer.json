@@ -1,0 +1,954 @@
+{
+  "_id": "ea1099ec61e58991",
+  "name": "Harald, Keywell Field Healer",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "natural",
+        "formula": "17"
+      },
+      "hp": {
+        "value": 52,
+        "max": 52,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": ""
+      },
+      "init": {
+        "ability": "",
+        "bonus": "",
+        "roll": {
+          "mode": 0,
+          "min": null,
+          "max": null
+        }
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 3
+    },
+    "details": {
+      "biography": {
+        "value": "<p>An encounter-specific support copy of Harald, built to keep pace with a level-8 party without becoming a fourth primary combatant.</p><p><strong>Spell save DC 15; spell attack +7.</strong> His principal role in the Keywell encounter is to heal, free, and escort Edric and Mara. This actor is deliberately named separately so it does not silently overwrite an existing world actor.</p>",
+        "public": ""
+      },
+      "alignment": "Neutral Good",
+      "race": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "human healer",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "Keywell and the surrounding forest",
+      "cr": 3,
+      "spellLevel": 0,
+      "source": {
+        "custom": "Etesia Campaign",
+        "rules": "2024",
+        "revision": 1,
+        "license": "Homebrew - Personal Campaign",
+        "book": ""
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {}
+  },
+  "prototypeToken": {
+    "name": "Harald, Keywell Field Healer",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": []
+  },
+  "items": [
+    {
+      "_id": "6af37b8bbe5d9286",
+      "name": "Healing Word (2nd-Level, 3/Day)",
+      "type": "feat",
+      "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Bonus Action, 60 feet.</strong> One creature regains 2d4 + 4 hit points.</p><p>Harald normally uses the first use on Edric during round one.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "3",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {
+          "e061c117a8a63066": {
+            "_id": "e061c117a8a63066",
+            "type": "heal",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Healing Word (2nd-Level)"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 60,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "ally",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Healing Word (2nd-Level)",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "healing": {
+              "number": 2,
+              "denomination": 4,
+              "bonus": "4",
+              "types": [
+                "healing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": null,
+                "formula": ""
+              }
+            }
+          }
+        },
+        "identifier": "healing-word-2nd-level-3-day"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.6af37b8bbe5d9286"
+    },
+    {
+      "_id": "032a66949724f3f4",
+      "name": "Cure Wounds (2nd-Level, 2/Day)",
+      "type": "feat",
+      "img": "icons/magic/life/heart-hand-gold-green.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Action, Touch.</strong> One creature regains 2d8 + 4 hit points.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "2",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {
+          "a15f7bfcf29a4a75": {
+            "_id": "a15f7bfcf29a4a75",
+            "type": "heal",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Cure Wounds (2nd-Level)"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "ally",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cure Wounds (2nd-Level)",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "healing": {
+              "number": 2,
+              "denomination": 8,
+              "bonus": "4",
+              "types": [
+                "healing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": null,
+                "formula": ""
+              }
+            }
+          }
+        },
+        "identifier": "cure-wounds-2nd-level-2-day"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 110000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.032a66949724f3f4"
+    },
+    {
+      "_id": "3707dd1f1cb36528",
+      "name": "Mass Healing Word (1/Day)",
+      "type": "feat",
+      "img": "icons/magic/life/heart-area-circle-red-green.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Bonus Action, 60 feet.</strong> Up to six creatures regain 1d4 + 4 hit points. Reserve this for a serious party-wide reversal rather than routine healing.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {
+          "a0c1ea41faec7d2d": {
+            "_id": "a0c1ea41faec7d2d",
+            "type": "heal",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Mass Healing Word"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 60,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "6",
+                "type": "ally",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Mass Healing Word",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "healing": {
+              "number": 1,
+              "denomination": 4,
+              "bonus": "4",
+              "types": [
+                "healing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": null,
+                "formula": ""
+              }
+            }
+          }
+        },
+        "identifier": "mass-healing-word-1-day"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 120000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.3707dd1f1cb36528"
+    },
+    {
+      "_id": "0ee13e9d899b5ad6",
+      "name": "Lesser Restoration (1/Day)",
+      "type": "feat",
+      "img": "icons/magic/life/cross-area-circle-green-white.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Action, Touch.</strong> End one disease or one of the Blinded, Deafened, Paralyzed, or Poisoned conditions on a creature. This does not remove Edric's Borrowed Time.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "lesser-restoration-1-day"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 130000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.0ee13e9d899b5ad6"
+    },
+    {
+      "_id": "a153876d2d4e8e6a",
+      "name": "Bless (1/Day)",
+      "type": "feat",
+      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Action; Concentration, up to 1 minute.</strong> Up to three creatures add 1d4 to attack rolls and saving throws. Harald does not cast this until Edric and Mara are moving toward safety unless the party is in immediate danger.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "bless-1-day"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 140000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.a153876d2d4e8e6a"
+    },
+    {
+      "_id": "36f9abb042f3fb4d",
+      "name": "Spare the Dying",
+      "type": "feat",
+      "img": "icons/magic/life/heart-shadow-red.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Action, Touch.</strong> Stabilize a dying creature.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "spare-the-dying"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 150000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.36f9abb042f3fb4d"
+    },
+    {
+      "_id": "ed25368542359db7",
+      "name": "Quarterstaff",
+      "type": "feat",
+      "img": "icons/weapons/staves/staff-ornate-gold.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Melee Weapon Attack:</strong> +4 to hit, reach 5 feet. <strong>Hit:</strong> 4 (1d6 + 1) Bludgeoning damage. Harald fights only when civilians are directly threatened.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {
+          "b264028d1e451bf2": {
+            "_id": "b264028d1e451bf2",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Quarterstaff"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 5,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Quarterstaff",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "4",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "1",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "identifier": "quarterstaff"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 160000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.ed25368542359db7"
+    },
+    {
+      "_id": "78cd56ed431c66c0",
+      "name": "Keywell Encounter Priorities",
+      "type": "feat",
+      "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+      "system": {
+        "description": {
+          "value": "<ol><li><strong>Round 1:</strong> cast Healing Word on Edric and move toward him.</li><li><strong>Round 2:</strong> use an action to free Edric while Edric warns the party.</li><li><strong>Round 3:</strong> escort Edric and Mara toward cover or the boundary stone.</li><li><strong>Later:</strong> provide emergency healing to a downed hero; otherwise Dodge, Help, or guard the civilians.</li></ol><p>Healing Edric works normally. It changes Harald's task rather than ending the rescue objective.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "keywell-encounter-priorities"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 170000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.78cd56ed431c66c0"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "etesia-arniea-compendium": {
+      "encounter": "keywell-hag-encounter"
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785621600000,
+    "modifiedTime": 1785621600000,
+    "lastModifiedBy": "keywellhagbuild",
+    "exportSource": null
+  },
+  "_key": "!actors!ea1099ec61e58991"
+}
