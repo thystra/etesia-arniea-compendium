@@ -2,7 +2,7 @@
 
 <!-- /home/alan/src/etesia-arniea-compendium/docs/items/resurrection-diamonds.md -->
 
-Module version: **0.1.2**
+Module version: **0.1.3**
 
 ## Established campaign rule
 

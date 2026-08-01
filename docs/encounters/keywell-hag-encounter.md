@@ -2,7 +2,7 @@
 
 <!-- /home/alan/src/etesia-arniea-compendium/docs/encounters/keywell-hag-encounter.md -->
 
-Module version: **0.1.2**
+Module version: **0.1.3**
 
 ## Intended party
 
