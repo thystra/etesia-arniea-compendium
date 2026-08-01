@@ -1,0 +1,55 @@
+{
+  "_id": "e6c007cbdf900a42",
+  "name": "Resurrection Diamond",
+  "type": "loot",
+  "img": "icons/commodities/gems/gem-faceted-diamond-silver.webp",
+  "system": {
+    "description": {
+      "value": "<p>A resurrection diamond is a specially prepared metaphysical anchor. An ordinary diamond, regardless of value or purity, cannot substitute for it.</p><p><strong>Established use:</strong> one stone is consumed when <em>Revivify</em> succeeds. The campaign has also previously used two standard stones for <em>Resurrection</em>. The stone is controlled by quantity, not by a conventional gold-piece value.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Etesia Campaign",
+      "rules": "2024",
+      "revision": 1,
+      "license": "Homebrew - Personal Campaign",
+      "book": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "identified": true,
+    "properties": [],
+    "identifier": "resurrection-diamond"
+  },
+  "effects": [],
+  "flags": {
+    "etesia-arniea-compendium": {
+      "resurrectionDiamond": true,
+      "grade": "standard",
+      "exchangeRateStatus": "established-for-revivify"
+    }
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785621600000,
+    "modifiedTime": 1785621600000,
+    "lastModifiedBy": "keywellhagbuild",
+    "exportSource": null
+  },
+  "_key": "!items!e6c007cbdf900a42"
+}

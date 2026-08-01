@@ -1,0 +1,55 @@
+{
+  "_id": "9309fb8a8a89c154",
+  "name": "Perfect Resurrection Diamond",
+  "type": "loot",
+  "img": "icons/commodities/gems/gem-faceted-diamond-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>A resurrection diamond is a specially prepared metaphysical anchor. An ordinary diamond, regardless of value or purity, cannot substitute for it.</p><p>An exceptionally complete soul anchor with no visible inclusion, fracture, or metaphysical flaw. Such stones are expected to be unique treasures, state secrets, or relics rather than ordinary merchandise.</p><p><strong>Provisional design note:</strong> this grade is reserved for the most powerful resurrection magic; its exact use remains intentionally undefined.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Etesia Campaign",
+      "rules": "2024",
+      "revision": 1,
+      "license": "Homebrew - Personal Campaign",
+      "book": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "identified": true,
+    "properties": [],
+    "identifier": "perfect-resurrection-diamond"
+  },
+  "effects": [],
+  "flags": {
+    "etesia-arniea-compendium": {
+      "resurrectionDiamond": true,
+      "grade": "perfect",
+      "exchangeRateStatus": "provisional"
+    }
+  },
+  "sort": 130000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785621600000,
+    "modifiedTime": 1785621600000,
+    "lastModifiedBy": "keywellhagbuild",
+    "exportSource": null
+  },
+  "_key": "!items!9309fb8a8a89c154"
+}

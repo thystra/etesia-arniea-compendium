@@ -28,7 +28,7 @@ Mother Sallow abducted Mara into a shallow border between Etesia and the Feywild
 - **Memory Bundle** - place three copies as destructible encounter objectives
 - **Edric Vale, Wounded Woodsman** - stable at 0 HP, restrained, and under Borrowed Time
 - **Mara Vale, the Unaged Child** - noncombatant witness and rescue objective
-- **Harald, Keywell Field Healer** - encounter-specific support copy
+- **Harald, Keywell Field Healer** - encounter-specific support copy with dawn-recovery healing, Sanctuary, Prayer of Healing, Revivify, breastplate, shield, and one Resurrection Diamond
 - **Edric's Bloodied Horse** - opening hook and clue carrier
 
 ## Finale setup
@@ -47,12 +47,13 @@ Each bundle has AC 15, 15 HP, immunity to Poison and Psychic damage, and vulnera
 
 Healing magic works normally on Edric.
 
+- Before danger, Harald may use *Aid* on Zari, Zyphyr, and AIDAN.
 - Round 1: Harald casts *Healing Word* on Edric and moves toward him.
-- Round 2: Harald frees Edric; Edric warns the party not to promise Mother Sallow anything.
-- Round 3: Harald escorts Edric and Mara toward cover or the boundary stone.
+- Round 2: Harald casts *Sanctuary* on Edric or Mara and positions to free Edric.
+- Round 3: Harald frees or escorts Edric and Mara toward cover or the boundary stone.
 - Later: Harald uses emergency healing if a hero falls, but otherwise guards the civilians.
 
-While Borrowed Time persists, Edric's Speed is 10 feet, he has Disadvantage on Strength and Dexterity checks and saves, cannot take Reactions, can take either an Action or Bonus Action but not both, and cannot regain hit points above 12.
+Harald carries one standard Resurrection Diamond. His *Revivify* use returns at dawn, but a consumed stone never does. While Borrowed Time persists, Edric's Speed is 10 feet, he has Disadvantage on Strength and Dexterity checks and saves, cannot take Reactions, can take either an Action or Bonus Action but not both, and cannot regain hit points above 12.
 
 ## Mother Sallow tactics
 

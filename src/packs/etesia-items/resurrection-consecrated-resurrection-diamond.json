@@ -1,0 +1,55 @@
+{
+  "_id": "65e4880b382dd59f",
+  "name": "Consecrated Resurrection Diamond",
+  "type": "loot",
+  "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A resurrection diamond is a specially prepared metaphysical anchor. An ordinary diamond, regardless of value or purity, cannot substitute for it.</p><p>A standard resurrection diamond that has undergone sustained temple consecration and soul-anchoring rites. It is intended as the first higher grade for stronger resurrection magic.</p><p><strong>Provisional design note:</strong> a future rule may allow one consecrated stone in place of two standard resurrection diamonds for <em>Raise Dead</em>. No exchange rate is final until the GM adopts it.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Etesia Campaign",
+      "rules": "2024",
+      "revision": 1,
+      "license": "Homebrew - Personal Campaign",
+      "book": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "identified": true,
+    "properties": [],
+    "identifier": "consecrated-resurrection-diamond"
+  },
+  "effects": [],
+  "flags": {
+    "etesia-arniea-compendium": {
+      "resurrectionDiamond": true,
+      "grade": "consecrated",
+      "exchangeRateStatus": "provisional"
+    }
+  },
+  "sort": 110000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785621600000,
+    "modifiedTime": 1785621600000,
+    "lastModifiedBy": "keywellhagbuild",
+    "exportSource": null
+  },
+  "_key": "!items!65e4880b382dd59f"
+}

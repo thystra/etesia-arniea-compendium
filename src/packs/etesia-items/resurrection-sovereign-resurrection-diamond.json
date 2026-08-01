@@ -1,0 +1,55 @@
+{
+  "_id": "548b4aad6aacd0c5",
+  "name": "Sovereign Resurrection Diamond",
+  "type": "loot",
+  "img": "icons/commodities/gems/gem-faceted-diamond-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>A resurrection diamond is a specially prepared metaphysical anchor. An ordinary diamond, regardless of value or purity, cannot substitute for it.</p><p>A high-grade soul anchor whose preparation is normally controlled by a crown, great temple, ancient order, or comparable power. It is intended for major resurrection rites and diplomatic or strategic custody.</p><p><strong>Provisional design note:</strong> its exact spell equivalencies and substitution ratios remain undefined.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Etesia Campaign",
+      "rules": "2024",
+      "revision": 1,
+      "license": "Homebrew - Personal Campaign",
+      "book": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "identified": true,
+    "properties": [],
+    "identifier": "sovereign-resurrection-diamond"
+  },
+  "effects": [],
+  "flags": {
+    "etesia-arniea-compendium": {
+      "resurrectionDiamond": true,
+      "grade": "sovereign",
+      "exchangeRateStatus": "provisional"
+    }
+  },
+  "sort": 120000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1785621600000,
+    "modifiedTime": 1785621600000,
+    "lastModifiedBy": "keywellhagbuild",
+    "exportSource": null
+  },
+  "_key": "!items!548b4aad6aacd0c5"
+}

@@ -14,7 +14,7 @@
         }
       },
       "dex": {
-        "value": 12,
+        "value": 14,
         "proficient": 0,
         "bonuses": {
           "check": "",
@@ -56,13 +56,13 @@
     },
     "attributes": {
       "ac": {
-        "flat": 17,
+        "flat": 18,
         "calc": "natural",
-        "formula": "17"
+        "formula": "18"
       },
       "hp": {
-        "value": 52,
-        "max": 52,
+        "value": 58,
+        "max": 58,
         "temp": 0,
         "tempmax": 0,
         "formula": ""
@@ -98,7 +98,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>An encounter-specific support copy of Harald, built to keep pace with a level-8 party without becoming a fourth primary combatant.</p><p><strong>Spell save DC 15; spell attack +7.</strong> His principal role in the Keywell encounter is to heal, free, and escort Edric and Mara. This actor is deliberately named separately so it does not silently overwrite an existing world actor.</p>",
+        "value": "<p>An encounter-specific NPC support version of Harald, built to keep pace with a level-8 party without becoming a fourth primary combatant.</p><p><strong>Spell save DC 15; spell attack +7.</strong> His limited spell-like uses recover at dawn. He carries exactly one standard Resurrection Diamond, tracked as a separate inventory item.</p><p>His principal role in the Keywell encounter is to heal, ward, free, and escort Edric and Mara. This actor is deliberately named separately so it does not silently overwrite an existing world actor.</p>",
         "public": ""
       },
       "alignment": "Neutral Good",
@@ -223,13 +223,310 @@
   },
   "items": [
     {
+      "_id": "53638c08d4070dc6",
+      "name": "Guidance",
+      "type": "feat",
+      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>At Will; Action; Concentration, up to 1 minute.</strong> Harald touches a willing creature. Before the spell ends, the target can add 1d4 to one ability check of its choice.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "guidance"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.53638c08d4070dc6"
+    },
+    {
+      "_id": "df0215d5446fcb12",
+      "name": "Light",
+      "type": "feat",
+      "img": "icons/magic/light/explosion-star-small-blue-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>At Will; Action; Touch; 1 hour.</strong> One object sheds bright light in a 20-foot radius and dim light for another 20 feet.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "light"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 105000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.df0215d5446fcb12"
+    },
+    {
+      "_id": "92bf76d0819c2917",
+      "name": "Sacred Flame",
+      "type": "feat",
+      "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>At Will; Action; 60 feet.</strong> One creature makes a DC 15 Dexterity saving throw, taking 2d8 Radiant damage on a failure. Harald uses this only when healing or civilian protection is not required.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {
+          "19eea44ee0dcb2ba": {
+            "_id": "19eea44ee0dcb2ba",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Sacred Flame"
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 60,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Sacred Flame",
+            "img": "",
+            "appliedEffects": [],
+            "enchant": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "15"
+              }
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "radiant"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ],
+              "onSave": "none"
+            }
+          }
+        },
+        "identifier": "sacred-flame"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 110000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.92bf76d0819c2917"
+    },
+    {
+      "_id": "36f9abb042f3fb4d",
+      "name": "Spare the Dying",
+      "type": "feat",
+      "img": "icons/magic/life/heart-shadow-red.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>At Will; Action; 15 feet.</strong> Stabilize one creature that has 0 hit points.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "spare-the-dying"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 115000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.36f9abb042f3fb4d"
+    },
+    {
+      "_id": "8973546b5ec2d5f7",
+      "name": "Thaumaturgy",
+      "type": "feat",
+      "img": "icons/magic/holy/chalice-glowing-gold-water.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>At Will; Action; 30 feet; up to 1 minute.</strong> Harald produces a minor divine wonder such as an amplified voice, harmless tremor, altered flame, or opening an unlocked door or window.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "thaumaturgy"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 120000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.8973546b5ec2d5f7"
+    },
+    {
       "_id": "6af37b8bbe5d9286",
-      "name": "Healing Word (2nd-Level, 3/Day)",
+      "name": "Healing Word (3/Day)",
       "type": "feat",
       "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Bonus Action, 60 feet.</strong> One creature regains 2d4 + 4 hit points.</p><p>Harald normally uses the first use on Edric during round one.</p>",
+          "value": "<p><strong>Bonus Action, 60 feet.</strong> One creature regains 2d4 + 4 hit points. Harald normally uses the first use on Edric during round one. Expended uses return at dawn.</p>",
           "chat": ""
         },
         "source": {
@@ -244,7 +541,7 @@
           "spent": 0,
           "recovery": [
             {
-              "period": "lr",
+              "period": "dawn",
               "type": "recoverAll",
               "formula": "1"
             }
@@ -274,7 +571,7 @@
               "spellSlot": false
             },
             "description": {
-              "chatFlavor": "Healing Word (2nd-Level)"
+              "chatFlavor": "Healing Word"
             },
             "duration": {
               "concentration": false,
@@ -315,7 +612,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Healing Word (2nd-Level)",
+            "name": "Healing Word",
             "img": "",
             "appliedEffects": [],
             "enchant": {},
@@ -344,11 +641,11 @@
             }
           }
         },
-        "identifier": "healing-word-2nd-level-3-day"
+        "identifier": "healing-word-3-day"
       },
       "effects": [],
       "flags": {},
-      "sort": 100000,
+      "sort": 130000,
       "ownership": {
         "default": 0
       },
@@ -356,12 +653,12 @@
     },
     {
       "_id": "032a66949724f3f4",
-      "name": "Cure Wounds (2nd-Level, 2/Day)",
+      "name": "Cure Wounds (2/Day)",
       "type": "feat",
       "img": "icons/magic/life/heart-hand-gold-green.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Action, Touch.</strong> One creature regains 2d8 + 4 hit points.</p>",
+          "value": "<p><strong>Action, Touch.</strong> One creature regains 2d8 + 4 hit points. Expended uses return at dawn.</p>",
           "chat": ""
         },
         "source": {
@@ -376,7 +673,7 @@
           "spent": 0,
           "recovery": [
             {
-              "period": "lr",
+              "period": "dawn",
               "type": "recoverAll",
               "formula": "1"
             }
@@ -406,7 +703,7 @@
               "spellSlot": false
             },
             "description": {
-              "chatFlavor": "Cure Wounds (2nd-Level)"
+              "chatFlavor": "Cure Wounds"
             },
             "duration": {
               "concentration": false,
@@ -447,7 +744,7 @@
               "max": ""
             },
             "sort": 0,
-            "name": "Cure Wounds (2nd-Level)",
+            "name": "Cure Wounds",
             "img": "",
             "appliedEffects": [],
             "enchant": {},
@@ -476,24 +773,24 @@
             }
           }
         },
-        "identifier": "cure-wounds-2nd-level-2-day"
+        "identifier": "cure-wounds-2-day"
       },
       "effects": [],
       "flags": {},
-      "sort": 110000,
+      "sort": 140000,
       "ownership": {
         "default": 0
       },
       "_key": "!actors.items!ea1099ec61e58991.032a66949724f3f4"
     },
     {
-      "_id": "3707dd1f1cb36528",
-      "name": "Mass Healing Word (1/Day)",
+      "_id": "31bc0aefb5bd3394",
+      "name": "Aid (1/Day)",
       "type": "feat",
-      "img": "icons/magic/life/heart-area-circle-red-green.webp",
+      "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Bonus Action, 60 feet.</strong> Up to six creatures regain 1d4 + 4 hit points. Reserve this for a serious party-wide reversal rather than routine healing.</p>",
+          "value": "<p><strong>Action, 30 feet; 8 hours.</strong> Up to three creatures increase their current and maximum hit points by 5. Harald often uses this on Zari, Zyphyr, and AIDAN before entering a known danger. The use returns at dawn.</p>",
           "chat": ""
         },
         "source": {
@@ -508,7 +805,183 @@
           "spent": 0,
           "recovery": [
             {
-              "period": "lr",
+              "period": "dawn",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "aid-1-day"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 150000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.31bc0aefb5bd3394"
+    },
+    {
+      "_id": "a153876d2d4e8e6a",
+      "name": "Bless (1/Day)",
+      "type": "feat",
+      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Action; Concentration, up to 1 minute.</strong> Up to three creatures add 1d4 to attack rolls and saving throws. Harald normally waits until Edric and Mara are moving toward safety unless the party is in immediate danger. The use returns at dawn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "bless-1-day"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 160000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.a153876d2d4e8e6a"
+    },
+    {
+      "_id": "0ee13e9d899b5ad6",
+      "name": "Lesser Restoration (1/Day)",
+      "type": "feat",
+      "img": "icons/magic/life/cross-area-circle-green-white.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Bonus Action, Touch.</strong> End the Blinded, Deafened, Paralyzed, or Poisoned condition on one creature. This does not remove Edric's Borrowed Time. The use returns at dawn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "lesser-restoration-1-day"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 170000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.0ee13e9d899b5ad6"
+    },
+    {
+      "_id": "15a4fc5390184780",
+      "name": "Sanctuary (1/Day)",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Bonus Action, 30 feet; 1 minute.</strong> Until the ward ends, a creature that targets the warded creature with an attack roll or damaging spell must first succeed on a DC 15 Wisdom saving throw or choose a new target. The ward ends if the protected creature attacks, casts a spell, or deals damage. Harald favors Edric or Mara. The use returns at dawn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "sanctuary-1-day"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 180000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.15a4fc5390184780"
+    },
+    {
+      "_id": "3707dd1f1cb36528",
+      "name": "Mass Healing Word (1/Day)",
+      "type": "feat",
+      "img": "icons/magic/life/heart-area-circle-red-green.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Bonus Action, 60 feet.</strong> Up to six creatures regain 2d4 + 4 hit points. Harald reserves this for a serious party-wide reversal. The use returns at dawn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
               "type": "recoverAll",
               "formula": "1"
             }
@@ -590,7 +1063,7 @@
               }
             },
             "healing": {
-              "number": 1,
+              "number": 2,
               "denomination": 4,
               "bonus": "4",
               "types": [
@@ -612,20 +1085,20 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 120000,
+      "sort": 190000,
       "ownership": {
         "default": 0
       },
       "_key": "!actors.items!ea1099ec61e58991.3707dd1f1cb36528"
     },
     {
-      "_id": "0ee13e9d899b5ad6",
-      "name": "Lesser Restoration (1/Day)",
+      "_id": "041ec19b944ad3ee",
+      "name": "Prayer of Healing (1/Day)",
       "type": "feat",
-      "img": "icons/magic/life/cross-area-circle-green-white.webp",
+      "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Action, Touch.</strong> End one disease or one of the Blinded, Deafened, Paralyzed, or Poisoned conditions on a creature. This does not remove Edric's Borrowed Time.</p>",
+          "value": "<p><strong>10 Minutes, 30 feet.</strong> Up to five creatures that remain within range gain the benefits of a Short Rest and regain 2d8 hit points. A creature cannot benefit from this prayer again until it finishes a Long Rest. This can restore Pact Magic resources, so Harald uses it only at a defensible pause. The use returns at dawn.</p>",
           "chat": ""
         },
         "source": {
@@ -640,7 +1113,7 @@
           "spent": 0,
           "recovery": [
             {
-              "period": "lr",
+              "period": "dawn",
               "type": "recoverAll",
               "formula": "1"
             }
@@ -652,24 +1125,24 @@
         },
         "requirements": "",
         "activities": {},
-        "identifier": "lesser-restoration-1-day"
+        "identifier": "prayer-of-healing-1-day"
       },
       "effects": [],
       "flags": {},
-      "sort": 130000,
+      "sort": 200000,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!ea1099ec61e58991.0ee13e9d899b5ad6"
+      "_key": "!actors.items!ea1099ec61e58991.041ec19b944ad3ee"
     },
     {
-      "_id": "a153876d2d4e8e6a",
-      "name": "Bless (1/Day)",
+      "_id": "7cd10d7f01f36a1c",
+      "name": "Gentle Repose (1/Day)",
       "type": "feat",
-      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+      "img": "icons/magic/death/skull-humanoid-crown-white-blue.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Action; Concentration, up to 1 minute.</strong> Up to three creatures add 1d4 to attack rolls and saving throws. Harald does not cast this until Edric and Mara are moving toward safety unless the party is in immediate danger.</p>",
+          "value": "<p><strong>Action, Touch; 10 days.</strong> Protect a corpse from decay and prevent it from becoming Undead, extending the practical time available to obtain stronger resurrection magic. The use returns at dawn.</p>",
           "chat": ""
         },
         "source": {
@@ -684,7 +1157,7 @@
           "spent": 0,
           "recovery": [
             {
-              "period": "lr",
+              "period": "dawn",
               "type": "recoverAll",
               "formula": "1"
             }
@@ -696,24 +1169,24 @@
         },
         "requirements": "",
         "activities": {},
-        "identifier": "bless-1-day"
+        "identifier": "gentle-repose-1-day"
       },
       "effects": [],
       "flags": {},
-      "sort": 140000,
+      "sort": 210000,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!ea1099ec61e58991.a153876d2d4e8e6a"
+      "_key": "!actors.items!ea1099ec61e58991.7cd10d7f01f36a1c"
     },
     {
-      "_id": "36f9abb042f3fb4d",
-      "name": "Spare the Dying",
+      "_id": "87df004cdd1418ef",
+      "name": "Revivify (1/Day; Resurrection Diamond)",
       "type": "feat",
-      "img": "icons/magic/life/heart-shadow-red.webp",
+      "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Action, Touch.</strong> Stabilize a dying creature.</p>",
+          "value": "<p><strong>Action, Touch.</strong> Restore a creature that died within the last minute to life with 1 hit point. The casting consumes one <strong>Resurrection Diamond</strong>; an ordinary diamond cannot substitute. The magical use returns at dawn, but the consumed diamond does not.</p>",
           "chat": ""
         },
         "source": {
@@ -724,9 +1197,15 @@
           "book": ""
         },
         "uses": {
-          "max": "",
+          "max": "1",
           "spent": 0,
-          "recovery": []
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll",
+              "formula": "1"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -734,15 +1213,15 @@
         },
         "requirements": "",
         "activities": {},
-        "identifier": "spare-the-dying"
+        "identifier": "revivify-1-day-resurrection-diamond"
       },
       "effects": [],
       "flags": {},
-      "sort": 150000,
+      "sort": 220000,
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!ea1099ec61e58991.36f9abb042f3fb4d"
+      "_key": "!actors.items!ea1099ec61e58991.87df004cdd1418ef"
     },
     {
       "_id": "ed25368542359db7",
@@ -884,11 +1363,142 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 160000,
+      "sort": 230000,
       "ownership": {
         "default": 0
       },
       "_key": "!actors.items!ea1099ec61e58991.ed25368542359db7"
+    },
+    {
+      "_id": "dbf9561fba2e1184",
+      "name": "Breastplate and Shield",
+      "type": "feat",
+      "img": "icons/equipment/chest/breastplate-layered-steel-grey.webp",
+      "system": {
+        "description": {
+          "value": "<p>Harald wears a breastplate beneath traveling vestments and carries a shield marked with his holy symbol, producing AC 18. His quarterstaff is normally slung or used as a walking staff so that one hand remains available for aid.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "breastplate-and-shield"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 240000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.dbf9561fba2e1184"
+    },
+    {
+      "_id": "675e44b80a6d7645",
+      "name": "Healer's Satchel",
+      "type": "feat",
+      "img": "icons/containers/bags/satchel-leather-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>Contains a healer's kit, bandages, splints, two antitoxins, two flasks of holy water, and mundane field-medicine supplies.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "identifier": "healer-s-satchel"
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 250000,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ea1099ec61e58991.675e44b80a6d7645"
+    },
+    {
+      "_id": "f079254c9c6a36a9",
+      "name": "Resurrection Diamond",
+      "type": "loot",
+      "img": "icons/commodities/gems/gem-faceted-diamond-silver.webp",
+      "system": {
+        "description": {
+          "value": "<p>A specially prepared soul anchor. An ordinary diamond cannot substitute for it. Harald carries one stone; a successful <em>Revivify</em> consumes it permanently.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Etesia Campaign",
+          "rules": "2024",
+          "revision": 1,
+          "license": "Homebrew - Personal Campaign",
+          "book": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0.1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "rare",
+        "identified": true,
+        "properties": [],
+        "identifier": "resurrection-diamond"
+      },
+      "effects": [],
+      "flags": {
+        "etesia-arniea-compendium": {
+          "resurrectionDiamond": true,
+          "grade": "standard",
+          "exchangeRateStatus": "established-for-revivify"
+        }
+      },
+      "sort": 260000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "14.364",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": 1785621600000,
+        "modifiedTime": 1785621600000,
+        "lastModifiedBy": "keywellhagbuild",
+        "exportSource": null
+      },
+      "_key": "!actors.items!ea1099ec61e58991.f079254c9c6a36a9"
     },
     {
       "_id": "78cd56ed431c66c0",
@@ -897,7 +1507,7 @@
       "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
       "system": {
         "description": {
-          "value": "<ol><li><strong>Round 1:</strong> cast Healing Word on Edric and move toward him.</li><li><strong>Round 2:</strong> use an action to free Edric while Edric warns the party.</li><li><strong>Round 3:</strong> escort Edric and Mara toward cover or the boundary stone.</li><li><strong>Later:</strong> provide emergency healing to a downed hero; otherwise Dodge, Help, or guard the civilians.</li></ol><p>Healing Edric works normally. It changes Harald's task rather than ending the rescue objective.</p>",
+          "value": "<ol><li><strong>Before danger, if appropriate:</strong> use Aid on Zari, Zyphyr, and AIDAN.</li><li><strong>Round 1:</strong> cast Healing Word on Edric and move toward him.</li><li><strong>Round 2:</strong> cast Sanctuary on Edric or Mara, then position to free Edric.</li><li><strong>Round 3:</strong> free or escort Edric and Mara toward cover or the boundary stone.</li><li><strong>Later:</strong> provide emergency healing to a downed hero; otherwise Dodge, Help, or guard the civilians.</li></ol><p>Healing Edric works normally. It changes Harald's task rather than ending the rescue objective.</p>",
           "chat": ""
         },
         "source": {
@@ -922,7 +1532,7 @@
       },
       "effects": [],
       "flags": {},
-      "sort": 170000,
+      "sort": 270000,
       "ownership": {
         "default": 0
       },
