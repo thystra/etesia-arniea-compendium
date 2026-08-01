@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.2 - Keywell Hag Encounter
+
+- Added the `Etesia: Keywell Hag Encounter` actor compendium.
+- Added Mother Sallow, the Hollowoak Guardian, and a reusable Memory Bundle objective actor.
+- Added Edric Vale, Mara Vale, Edric's Bloodied Horse, and an encounter-specific Harald support actor.
+- Added save-based actions, legendary actions, encounter objectives, and GM-facing tactical notes for a reduced level-8 party.
+- Added `docs/encounters/keywell-hag-encounter.md`.
+
 ## 0.1.1 - Keywell Hag Encounter
 
 - Added the `Etesia: Keywell Hag Encounter` actor compendium.
